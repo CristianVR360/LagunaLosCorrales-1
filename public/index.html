@@ -1,94 +1,659 @@
 <!DOCTYPE html>
-<html lang="es">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
 <head>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5VLSXVNN');</script>
-	<!-- End Google Tag Manager -->
-	
-	<!-- Configuración de codificación -->
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
-
-	<!-- Etiquetas de viewport -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
-	<meta name="mobile-web-app-capable" content="yes" />
-
-	<!-- Favicon -->
-	<!-- Reemplaza las URLs con la ruta real de tus íconos -->
-	<link rel="icon" type="image/png" href="./FavIcon.png" />
 	
 
-	<!-- Metadatos descriptivos -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+
+	<meta name="Parcelas en el sur de chile" content="Laguna Los Corrales">
+	<meta name="Laguna Los Corrales" content="Parcelas región de Los Ríos">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 	<title>Laguna Los Corrales</title>
-	<meta name="title" content="Laguna Los Corrales - Proyecto en Lago Ranco" />
-	<meta name="description" content="Proyecto inmobiliario Laguna Los Corrales en las cercanías del Lago Ranco. Ven a disfrutar de un entorno natural único, con vistas panorámicas e instalaciones de primer nivel." />
-	<meta name="keywords" content="Laguna Los Corrales, Lago Ranco, Inmobiliaria, Parcelas, Proyectos, Venta" />
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://milanding.cl/lagunaloscorrales" />
-	<meta property="og:title" content="Laguna Los Corrales - Proyecto en Lago Ranco" />
-	<meta property="og:description" content="Descubre Laguna Los Corrales, un exclusivo desarrollo inmobiliario en las cercanías del Lago Ranco, rodeado de naturaleza y aventura." />
-	<meta property="og:image" content="https://tusitio.cl/ruta/imagen-og.jpg" />
+	<!-- STYLES -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
 
-	<!-- Twitter Cards -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:url" content="https://milanding.cl/lagunaloscorrales" />
-	<meta name="twitter:title" content="Laguna Los Corrales - Proyecto en Lago Ranco" />
-	<meta name="twitter:description" content="Disfruta de este proyecto único en las cercanías del Lago Ranco, con hermosas vistas y todo lo que necesitas para vivir en armonía con la naturaleza." />
-	<meta name="twitter:image" content="https://tusitio.cl/ruta/imagen-twitter.jpg" />
 
-	<style type="text/css" title="Default">
-		/* fullscreen */
-		html, body {
-			margin: 0;
-			padding: 0;
-			height: 100%;
-			width: 100%;
-		}
-		iframe {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			border: none; /* Elimina el borde del iframe */
-		}
-		body {
-			height:100%;
-			margin: 0px;
-			overflow:hidden; /* disable scrollbars */
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* remove highlight on tab for iOS/Android */
-		}
-		/* fix para scroll bars en webkit & >= Mac OS X Lion */
-		::-webkit-scrollbar {
-			background-color: rgba(0,0,0,0.5);
-			width: 0.75em;
-		}
-		::-webkit-scrollbar-thumb {
-			background-color:  rgba(255,255,255,0.5);
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+	<link rel="stylesheet" type="text/css" href="css/colors.css" />
+	<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="whatsappbutton.css" />
+
+	<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+	<!-- /STYLES -->
+
 </head>
 
-<body>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;800&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Sofia+Sans+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"/>
-	
-	<div id="container" style="width:100%;height:100%;overflow:hidden;">
-		<iframe src="https://milanding.cl/lagunaloscorrales"  height="alto" title="Descripción"></iframe>
-	</div>
-	
-	<noscript>
-		<p><b>Please enable Javascript!</b></p>
-	</noscript>
+<body> <!-- FOR DARK MODE: Add class "dark" Example: <body class="dark"> -->
 
-	<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s -->
-	<div style="width:1px;height:1px;"></div>
+	
+
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
+
+	<!-- WRAPPER ALL -->
+	<div class="grax_tm_all_wrap" data-magic-cursor="" data-color="crimson">
+
+		<!-- MAGIC CURSOR VALUES: "", hide -->
+		<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
+
+		<!-- SETTINGS
+	<div class="grax_tm_settings">
+		<div class="icon">
+			<img class="svg" src="img/svg/setting.svg" alt="" />
+			<a class="link" href="#"></a>
+		</div>
+		<div class="wrapper">
+			<span class="title">Unlimited Colors</span>
+			<ul class="colors">
+				<li><a class="blue" href="#"></a></li>
+				<li><a class="green" href="#"></a></li>
+				<li><a class="brown" href="#"></a></li>
+				<li><a class="pink" href="#"></a></li>
+				<li><a class="orange" href="#"></a></li>
+				<li class="bl"><a class="black" href="#"></a></li>
+				<li class="wh"><a class="white" href="#"></a></li>
+				<li><a class="purple" href="#"></a></li>
+				<li><a class="sky" href="#"></a></li>
+				<li><a class="cadetBlue" href="#"></a></li>
+				<li><a class="crimson" href="#"></a></li>
+				<li><a class="olive" href="#"></a></li>
+				<li><a class="red" href="#"></a></li>
+			</ul>
+			<span class="title">Magic Cursor</span>
+			<ul class="cursor">
+				<li><a class="showme show" href="#"></a></li>
+				<li><a class="hide" href="#"><img class="svg" src="img/svg/arrow.svg" alt="" /></a></li>
+			</ul>
+		</div>
+	</div>
+
+	 -->
+		<!-- /SETTINGS -->
+
+		<!-- MODALBOX NEWS -->
+		<div class="grax_tm_modalbox_news">
+			<div class="box_inner">
+				<div class="close">
+					<a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
+				</div>
+				<div class="description_wrap scrollable">
+				</div>
+			</div>
+		</div>
+		<!-- /MODALBOX NEWS -->
+
+		<!-- TOPBAR -->
+		<div class="grax_tm_topbar">
+			<div class="container">
+				<div class="topbar_inner">
+					<div class="logo">
+						<a class="dark" href="#"><img src="img/logo/dark.png" alt="" /></a>
+						<a class="light" href="#"><img src="img/logo/logoblanco.png" alt="" /></a>
+					</div>
+					<div class="menu">
+						<ul class="anchor_nav">
+							<li class="current"><a href="#home">Home</a></li>
+							<li><a href="#about">Características</a></li>
+							<li><a href="#portfolio">Galería</a></li>
+							<li><a href="#masterplan">Masterplan 360</a></li>
+							<li><a href="#contact">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /TOPBAR -->
+
+		<!-- MOBILE MENU -->
+		<div class="grax_tm_mobile_menu">
+			<div class="topbar_inner">
+				<div class="container bigger">
+					<div class="topbar_in">
+						<div class="logo">
+							<a href="#"><img src="img/logo/dark.png" alt="" /></a>
+						</div>
+						<div class="my_trigger">
+							<div class="hamburger hamburger--collapse-r">
+								<div class="hamburger-box">
+									<div class="hamburger-inner"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="dropdown">
+				<div class="container">
+					<div class="dropdown_inner">
+						<ul class="anchor_nav">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">Características</a></li>
+							<li><a href="#portfolio">Galería</a></li>
+							<li><a href="#news">Masterplan 360</a></li>
+							<li><a href="#contact">Contacto</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /MOBILE MENU -->
+
+		<!-- HERO -->
+		<div class="grax_tm_hero creative" id="home">
+			<div class="bg">
+				<div class="image" data-img-url="img/slider/header.jpg"></div>
+				<div class="overlay"></div>
+			</div>
+			<div class="content">
+				<div class="container">
+					<div class="details" data-animation="toTop">
+						<!-- Animation Values: toTop, toRight, scale, rotate -->
+						<h3 class="fn_animation name">Laguna Los Corrales</h3>
+						<span class="fn_animation job">Bosques en plena selva valdiviana, Lago Ranco, Región de los Ríos</span>
+
+						<!-- Contenedor para los botones -->
+						<div class="buttons_wrapper">
+							<div class="grax_tm_button_hero fn_button_animation">
+								<a href="#masterplan" class="scroll_link">Ver Masterplan</a>
+							</div>
+							<div class="grax_tm_button_hero fn_button_animation">
+								<a href="#contact" class="scroll_link">Cotizar</a>
+							</div>
+						</div>
+
+					</div>
+
+
+					<div class="grax_tm_down shape" data-skin="light">
+						<div class="line_wrapper">
+							<div class="line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="my_shape">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 238"
+					enable-background="new 0 0 1920 238" xml:space="preserve">
+					<path fill="#7cc367" d="M0,0c0,0,888.955,518.735,1920,0c-0.5,149.535,0,238,0,238H0V0z"></path>
+				</svg>
+			</div>
+		</div>
+
+		<!-- /HERO -->
+
+		<!-- ABOUT -->
+		<div class="grax_tm_section" id="about">
+			<div class="grax_tm_about">
+				<div class="container">
+					<div class="about_inner">
+						<div class="left wow fadeInLeft" data-wow-duration="1.5s">
+							<div class="image parallax" data-relative-input="true">
+								<img src="img/placeholders/3-4.jpg" alt="" />
+								<div class="main layer" data-img-url="img/about/1.jpg" data-depth="0.04"></div>
+							</div>
+						</div>
+						<div class="right wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<div class="grax_tm_title_holder">
+								<h3>Donde lo especial <span>se vuelve cotidiano</span></h3>
+							</div>
+							<div class="text">
+								<p>Descubre Laguna Los Corrales, un lugar donde lo especial se vuelve cotidiano. Ubicadas en la majestuosa selva Valdiviana, estas macroparcelas ofrecen un espacio único y privilegiado, rodeadas de algunos de los lagos más icónicos del sur de Chile. A tan solo 20 minutos del hermoso Lago Ranco, las parcelas están estratégicamente ubicadas en la Ruta T-567, con acceso rápido a todos los rincones de esta región privilegiada.</p>
+							</div>
+							<div class="list">
+								<ul>
+									<li>
+										<div class="list_inner">
+											<img class="svg" src="img/svg/checked.svg" alt="" />
+											<span>Agua natural durante todo el año</span>
+										</div>
+									</li>
+									<li>
+										<div class="list_inner">
+											<img class="svg" src="img/svg/checked.svg" alt="" />
+											<span>Parcelas con rol propio</span>
+										</div>
+									</li>
+									<li>
+										<div class="list_inner">
+											<img class="svg" src="img/svg/checked.svg" alt="" />
+											<span>Ideal para proyectos de generación fotovoltaica.</span>
+										</div>
+									</li>
+									<li>
+										<div class="list_inner">
+											<img class="svg" src="img/svg/checked.svg" alt="" />
+											<span>En plena selva valdiviana</span>
+										</div>
+									</li>
+									<li>
+										<div class="list_inner">
+											<img class="svg" src="img/svg/checked.svg" alt="" />
+											<span>Lagos, volcanes, rios y naturaleza</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+
+							<!--
+							
+							<div class="grax_tm_button">
+								<a href="https://www.youtube.com/watch?v=6PC3STetosw">Ver Video</a>
+							</div>
+							-->
+							<div class="grax_tm_button">
+								<a href="assets/Laguna Los corrales Brochure Etapa 4 y 5.pdf" download>Descargar brochure</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /ABOUT -->
+
+
+		<!-- VIDEO SECTION -->
+		<div class="grax_tm_section video_section">
+			<div class="video_wrapper parallax">
+				<img src="img/thumbVideo/1.jpg" alt="Video Background" class="background_image" />
+				<div class="play_button">
+					<button id="play_video"><img src="img/svg/play-100.png" alt="Play" /></button>
+				</div>
+			</div>
+		</div>
+
+		<!-- VIDEO MODAL -->
+		<div id="video_modal" class="video_modal">
+			<div class="modal_content">
+				<iframe id="youtube_video" src="https://www.youtube.com/watch?v=6PC3STetosw" frameborder="0"
+					allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<button id="close_modal" class="close_button">&times;</button>
+			</div>
+		</div>
+
+
+		<!-- //VIDEO SECTIONL -->
+
+		<!-- PORTFOLIO -->
+		<div class="grax_tm_section" id="portfolio">
+			<div class="grax_tm_portfolio">
+				<div class="container">
+					<div class="grax_tm_title_holder">
+						<h3>Galería <span>de fotos</span></h3>
+					</div>
+					<div class="portfolio_list">
+						<ul class="gallery_zoom my_waypoint">
+							<!--
+							<li class="wow fadeInLeft" data-wow-duration="1.5s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/1.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Ver Video</span>
+										<h3>Juan Guillermo Valenzuela, fundador.</h3>
+									</div>
+									<a class="grax_tm_full_link popup-youtube"
+										href="https://www.youtube.com/watch?v=6PC3STetosw"></a>
+								</div>
+							</li>
+						--> 
+
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/2.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Ubicación Privilegiada</span>
+										<h3>En plena selva Valdiviana, cerca del Lago Ranco.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/2.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/3.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Macroparcelas Exclusivas</span>
+										<h3>Terrenos amplios en un entorno natural único.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/3.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/4.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Rodeado de Naturaleza</span>
+										<h3>Próximo a los lagos más emblemáticos del sur.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/4.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/5.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Conectividad Estratégica</span>
+										<h3>Acceso rápido por la Ruta T-567.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/5.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/7.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Entorno Único</span>
+										<h3>Paisajes impresionantes en una zona prístina.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/7.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/8.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Naturaleza</span>
+										<h3>Paz y tranquilidad </h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/8.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/9.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Inversión Segura </span>
+										<h3>Oportunidad de alto valor y plusvalía.</h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/9.jpg"></a>
+								</div>
+							</li>
+							<li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".4s">
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/placeholders/1-1.jpg" alt="" />
+										<div class="main" data-img-url="img/portfolio/10.jpg"></div>
+									</div>
+									<div class="overlay"></div>
+									<div class="details">
+										<span>Calma y Tranquilidad</span>
+										<h3> Vive la paz del sur en tu propio espacio. </h3>
+									</div>
+									<a class="grax_tm_full_link zoom" href="img/portfolio/10.jpg"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /PORTFOLIO -->
+
+
+		<!--POR QUE ELEGIR CHAIGNAL-->
+
+		
+
+
+		<!-- TALK -->
+		<div class="grax_tm_section">
+			<div class="grax_tm_talk">
+				<div class="container">
+					<div class="talk_inner">
+						<div class="text wow fadeInLeft" data-wow-duration="1.5s">
+							<h3><span>¡Agenda tu visita ahora!</span></h3>
+						</div>
+						<div class="button wow fadeInLeft anchor" data-wow-duration="1.5s" data-wow-delay=".2s">
+							<a href="#contact">Contacto</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /TALK -->
+
+		<!-- Master Plan -->
+		<div class="grax_tm_section" style=" display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	text-align: center;" id="masterplan">
+			<div class="grax_tm_news">
+
+				<div class="grax_tm_title_holder">
+					<h3>Master Plan <span>360</span></h3>
+				</div>
+
+				<iframe id="myIframe" src="https://lagunaloscorrales.cl/masterplan.html"
+					style="width: 80%; height: 600px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"
+					allowfullscreen>
+				</iframe>
+
+				<div class="grax_tm_button_masterplan" style="margin-top: 20px;">
+					<a href="https://lagunaloscorrales.cl/masterplan.html" target="_blank">
+						Abrir en una nueva pestaña
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+
+		<!-- /NEWS -->
+
+		<!-- CONTACT -->
+		<div class="grax_tm_contact" id="contact">
+			<div class="container">
+				<div class="grax_tm_title_holder">
+					<h3>Cotiza tu<span> próximo hogar</span></h3>
+				</div>
+				<div class="contact_inner">
+					<div class="left wow fadeInLeft" data-wow-duration="1s">
+						<div class="text">
+							<p>Escribenos y nos pondremos en contacto contigo a la brevedad </p>
+						</div>
+						<div class="info_list">
+							<ul>
+								<li>
+									<div class="list_inner">
+										<img class="svg" src="img/svg/location.svg" alt="" />
+										<p><span class="first">Ubicación:</span><span class="second"><a
+													href="https://maps.app.goo.gl/6Sd6bd8E4VCEfK3h7">Ruta T-709, Región
+													de los Ríos</a></span></p>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img class="svg" src="img/svg/email.svg" alt="" />
+										<p><span class="first">Email:</span><span class="second"><a
+													href="#">guillermo@riochepu.cl</a></span></p>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img class="svg" src="img/svg/phone.svg" alt="" />
+										<p><span class="first">Teléfono:</span><span class="second"><a
+													href="tel:+56942403802">+56 9 4240 3802</a></span></p>
+									</div>
+								</li>
+								<li>
+									<div class="list_inner">
+										<img class="svg" src="img/svg/social/dribbble.svg" alt="" />
+										<p><span class="first">Website:</span><span class="second"><a
+													href="https://lagunaloscorrales.cl">www.lagunaloscorrales.cl</a></span>
+										</p>
+									</div>
+								</li>
+
+								<li>
+									<div class="list_inner">
+										<img class="svg" src="img/svg/social/instagram.svg" alt="" />
+										<p><span class="first">Instagram:</span><span class="second"><a
+													href="https://www.instagram.com/lagunaloscorrales.cl?igsh=NmZ4cGIyemt2b2ph">@lagunaloscorrales.cl/</a></span>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="right wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="fields">
+							<form action="/" method="post" class="contact_form" id="contact_form">
+								<div class="returnmessage"
+									data-success="Your message has been received, We will contact you soon."></div>
+								<div class="empty_notice"><span>Campos requeridos</span></div>
+								<div class="first">
+									<ul>
+										<li>
+											<input id="name" type="text" placeholder="Nombre">
+										</li>
+										<li>
+											<input id="email" type="text" placeholder="Telefono">
+										</li>
+									</ul>
+								</div>
+								<div class="last">
+									<textarea id="message" placeholder="Mensaje"></textarea>
+								</div>
+								<div class="grax_tm_button">
+									<a id="send_message" href="#">Enviar mensaje</a>
+								</div>
+
+								<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /CONTACT -->
+
+		<!-- COPYRIGHT -->
+		<div class="grax_tm_section">
+			<div class="grax_tm_copyright">
+				<div class="my_wave">
+					<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+						<defs></defs>
+						<path id="wave_img" data-color="#fff"
+							d="M 0 185.609 C 317.16666666666663 118.136 317.16666666666663 118.136 634.3333333333333 151.87 C 951.4999999999999 185.609 951.4999999999999 185.609 1268.6666666666665 116.402 C 1585.833333333333 47.195 1585.833333333333 47.195 1903 131.925 L 1903 507 L 0 507 Z"
+							fill="#fff"></path>
+					</svg>
+				</div>
+				<div class="container">
+					<div class="copyright_inner">
+						<div class="logo wow fadeInLeft" data-wow-duration="1s">
+							<img src="img/logo/logo.png" alt="" />
+						</div>
+						<div class="social wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+							<ul>
+								<li><a href="https://www.astra360.cl" target="_blank"><img class="svg"
+											src="img/svg/web.svg" alt="" /></a></li>
+								<li><a href="https://www.instagram.com/astra.360/" target="_blank"><img class="svg"
+											src="img/svg/social/instagram-2.svg" alt="" /></a></li>
+								<li><a href="https://wa.me/56931354518?text=Hola,%20vi%20un%20sitio%20web%20hecho%20por%20ustedes"
+										target="_blank"><img class="svg" src="img/svg/whatsapp4.svg" alt="" /></a></li>
+								<li><a href="https://www.tiktok.com/@astra360.cl?_t=ZM-8tScT3JPGxq&_r=1"
+										target="_blank"><img class="svg" src="img/svg/social/tik-tok.svg" alt="" /></a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="copy wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+							<p>&copy; Copyright 2025, Desarrollado por astra360.cl</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /COPYRIGHT -->
+
+		<!-- CURSOR -->
+		<div class="mouse-cursor cursor-outer"></div>
+		<div class="mouse-cursor cursor-inner"></div>
+		<!-- /CURSOR -->
+
+		<!-- START: Page Progress -->
+		<div class="progressbar">
+			<a href="#"><span class="text">To Top</span></a>
+			<span class="line"></span>
+		</div>
+		<!-- END: Page Progress -->
+
+
+
+
+	</div>
+
+	<!-- Whatsapp button -->
+	<div class="whatsapp-button-container">
+		<span class="whatsapp-button-text">Contáctanos</span>
+		<a href="https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto"
+			class="floating-button" target="_blank" rel="noopener noreferrer">
+			<div class="whatsapp-icon"></div>
+		</a>
+	</div>
+	<!-- end whatsapp button-->
+
+	<!-- / WRAPPER ALL -->
+
+	<!-- SCRIPTS -->
+
+
+	<script src="js/jquery.js"></script>
+	<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+	<script src="js/plugins.js"></script>
+	<script src="js/init.js"></script>
+	<!-- /SCRIPTS -->
+
 </body>
+
 </html>
