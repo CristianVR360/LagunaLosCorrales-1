@@ -23,7 +23,7 @@ const updateHotspotAttributes = async (hotspotId, description, status, newInfo) 
     const result = await getData();
 
     // Buscar el panorama con el id "node2"
-    const panorama = result.tour.panorama.find(p => p.$.id === 'node20');
+    const panorama = result.tour.panorama.find(p => p.$.id === 'node20','node21');
 
     if (panorama) {
       if (panorama.hotspots && panorama.hotspots.length > 0) {
