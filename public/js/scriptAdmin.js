@@ -103,16 +103,18 @@
             button.addEventListener('click', function() {
                 currentLoteId = this.getAttribute('data-lote-id');
                 const row = this.closest('tr');
-    
+        
                 const loteTitle = row.querySelector('td:nth-child(3)').textContent; // Precio
                 const loteDescription = row.querySelector('td:nth-child(2)').textContent; // Descripción
                 const loteStatusText = row.querySelector('td:nth-child(4)').textContent.trim(); // Estado como texto
-    
+                const nodeId = row.querySelector('td:nth-child(5)').textContent; // nodeId (debe estar en la tabla)
+        
                 // Establecer los valores en el modal
                 titleInput.value = loteTitle;
                 descriptionInput.value = loteDescription;
                 modalLoteIdSpan.textContent = currentLoteId;
-    
+                modalNodeIdSpan.textContent = nodeId; // Asegúrate de agregar un span para nodeId en el modal
+        
                 // Asignar el valor del select basado en el texto del estado
                 switch (loteStatusText) {
                     case 'Disponible':

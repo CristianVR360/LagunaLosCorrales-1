@@ -20,34 +20,38 @@ const updateHotspotAttributes = async (hotspotId, description, status, newInfo) 
   try {
     const result = await getData();
 
-    // Buscar el panorama con el id "node20" o "node21"
-    const panorama = result.tour.panorama.find(p => p.$.id === 'node20' || p.$.id === 'node21');
+    // Buscar en ambos panoramas (node20 y node21)
+    const panoramas = result.tour.panorama.filter(p => p.$.id === 'node20' || p.$.id === 'node21');
 
-    if (panorama) {
+    let hotspotUpdated = false; // Bandera para verificar si se actualizó el hotspot
+
+    for (const panorama of panoramas) {
       if (panorama.hotspots && panorama.hotspots.length > 0) {
         const hotspots = panorama.hotspots[0].hotspot;
         const hotspot = hotspots.find(h => h.$.id.toLowerCase() === hotspotId.toLowerCase());
 
         if (hotspot) {
+          // Actualizar los atributos del hotspot
           hotspot.$.description = description;
           hotspot.$.skinid = status;
           hotspot.$.url = newInfo;
 
-          const builder = new xml2js.Builder();
-          const xml = builder.buildObject(result);
-
-          await fs.promises.writeFile(xmlFilePath, xml);
-          console.log('File updated correctly');
-        } else {
-          throw new Error(`No hotspot found with the id: ${hotspotId}`);
+          hotspotUpdated = true; // Marcar como actualizado
+          break; // Salir del bucle una vez que se encuentra y actualiza el hotspot
         }
-      } else {
-        console.warn(`Panorama with id "${panorama.$.id}" has no hotspots`);
-        throw new Error(`Panorama with id "${panorama.$.id}" has no hotspots`);
       }
+    }
+
+    if (hotspotUpdated) {
+      // Convertir el objeto XML a cadena
+      const builder = new xml2js.Builder();
+      const xml = builder.buildObject(result);
+
+      // Escribir el archivo XML actualizado
+      await fs.promises.writeFile(xmlFilePath, xml);
+      console.log('File updated correctly');
     } else {
-      console.warn('Panorama with id "node20" or "node21" not found');
-      throw new Error('Panorama with id "node20" or "node21" not found');
+      throw new Error(`No hotspot found with the id: ${hotspotId}`);
     }
   } catch (error) {
     console.error(error);
@@ -90,25 +94,53 @@ const getAllHotspots = async () => {
       }
     });
 
-    // Ordenar los hotspots
-    hotspotArray.sort((a, b) => {
-      const regexAlphaNum = /^([A-Z]*)-?(\d+)$/;
-      const matchA = a.id.match(regexAlphaNum);
-      const matchB = b.id.match(regexAlphaNum);
-      
-      if (matchA && matchB) {
-        const [, etapaA, numA] = matchA;
-        const [, etapaB, numB] = matchB;
-        
-        if (etapaA === etapaB) {
-          return parseInt(numA) - parseInt(numB);
+ // Ordenar los hotspots
+// Ordenar los hotspots
+hotspotArray.sort((a, b) => {
+  const regexAlphaNum = /^([A-Z]+)(\d+)-(\d+)$/; // Formato E04-1
+  const regexSimpleNum = /^(\d+)$/; // Formato numérico simple (1, 2, 3, etc.)
+
+  const matchA = a.id.match(regexAlphaNum) || a.id.match(regexSimpleNum);
+  const matchB = b.id.match(regexAlphaNum) || b.id.match(regexSimpleNum);
+
+  if (matchA && matchB) {
+    // Si ambos IDs tienen el formato E04-1
+    if (matchA.length === 4 && matchB.length === 4) {
+      const [, etapaA, numA1, numA2] = matchA;
+      const [, etapaB, numB1, numB2] = matchB;
+
+      // Comparar las partes alfanuméricas (etapas)
+      if (etapaA === etapaB) {
+        // Si las etapas son iguales, comparar los números principales (numA1 y numB1)
+        if (parseInt(numA1) === parseInt(numB1)) {
+          // Si los números principales son iguales, comparar los números secundarios (numA2 y numB2)
+          return parseInt(numA2) - parseInt(numB2);
         } else {
-          return etapaA.localeCompare(etapaB);
+          return parseInt(numA1) - parseInt(numB1);
         }
       } else {
-        return a.id.localeCompare(b.id);
+        // Si las etapas son diferentes, ordenar alfabéticamente por etapa
+        return etapaA.localeCompare(etapaB);
       }
-    });
+    }
+    // Si ambos IDs son numéricos simples
+    else if (matchA.length === 2 && matchB.length === 2) {
+      const numA = parseInt(matchA[1]);
+      const numB = parseInt(matchB[1]);
+      return numA - numB; // Ordenar como números
+    }
+    // Si un ID es E04-1 y el otro es numérico simple
+    else {
+      // Los IDs numéricos simples van primero
+      return matchA.length === 2 ? -1 : 1;
+    }
+  } else {
+    // Si no coincide con ningún formato esperado, ordenar alfabéticamente por ID
+    return a.id.localeCompare(b.id);
+  }
+});
+
+
 
     return hotspotArray;
   } catch (error) {

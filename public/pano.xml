@@ -19,9 +19,9 @@
       <label height="20" enabled="0" textcolor="0x000000" background="1" borderradius="1" wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textalpha="1" borderalpha="1" border="1" bordercolor="0x000000"/>
       <polystyle backgroundcolor="0x99ffa5" backgroundalpha="0.25098" mode="2" borderalpha="0" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot target="-27.0/-10.3/70.0" id="Point01" skinid="ht_nodo_roundedB" description="" url="{node18}" distance="598.835" title="Laguna Los Corrales" pan="-220.15" tilt="-29.84"/>
-      <hotspot target="_blank" id="1" skinid="ht_noDisponible" description="Superficie: 0,63 Has&#xA;Servidumbre de tránsito: NO" url="" title="1" pan="-190.52" tilt="-58.26"/>
+      <hotspot target="_blank" id="1" skinid="ht_disponible" description="Superficie: 0,63 Has&#xA;Servidumbre de tránsito: NO" url="" title="1" pan="-190.52" tilt="-58.26"/>
       <hotspot target="_blank" id="2" skinid="ht_noDisponible" description="Superficie: 0,75 Has&#xA;Servidumbre de tránsito: NO" url="" title="2" pan="-186.15" tilt="-63.13"/>
-      <hotspot target="_blank" id="3" skinid="ht_promocion" description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" url="" title="3" pan="-161.23" tilt="-60.93"/>
+      <hotspot target="_blank" id="3" skinid="ht_disponible" description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" url="" title="3" pan="-161.23" tilt="-60.93"/>
       <hotspot target="_blank" id="4" skinid="ht_promocion" description="Superficie: 0,73 Has&#xA;Servidumbre de tránsito: NO" url="" title="4" pan="-184.4" tilt="-71.01"/>
       <hotspot target="_blank" id="5" skinid="ht_promocion" description="Superficie: 0,65 Has&#xA;Servidumbre de tránsito: NO" url="" title="5" pan="-147.22" tilt="-68.66"/>
       <hotspot target="_blank" id="6" skinid="ht_promocion" description="Superficie: 0,59 Has&#xA;Servidumbre de tránsito: NO" url="" title="6" pan="-171.86" tilt="-79.99"/>
@@ -167,13 +167,13 @@
       <hotspot target="_blank" id="E04-16" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0629 ha" url="" title="16" pan="-145.72" tilt="-45.94"/>
       <hotspot target="_blank" id="E04-17" skinid="ht_noDisponible" description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0993 ha" url="" title="17" pan="-134.8" tilt="-60.96"/>
       <hotspot target="_blank" id="E04-20" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0763 ha" url="" title="20" pan="-59.66" tilt="-43.05"/>
-      <hotspot target="_blank" id="E04-21" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0945 ha" url="" title="21" pan="-45.98" tilt="-35.37"/>
+      <hotspot target="_blank" id="E04-21" skinid="ht_disponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0945 ha" url="" title="21" pan="-45.98" tilt="-35.37"/>
       <hotspot target="_blank" id="E04-22" skinid="ht_noDisponible" description="Superficie: 3,20 ha&#xA;Servidumbre: 0,1743 ha" url="" title="22" pan="-34.19" tilt="-30.86"/>
       <hotspot target="_blank" id="E04-23" skinid="ht_noDisponible" description="Superficie: 2,05 ha&#xA;Servidumbre: 0,0948 ha" url="" title="23" pan="-30.24" tilt="-24.51"/>
       <hotspot target="_blank" id="E04-24" skinid="ht_disponible" description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1020 ha" url="" title="24" pan="-33.45" tilt="-19.8"/>
       <hotspot target="_blank" id="E04-26" skinid="ht_noDisponible" description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0592 ha" url="" title="26" pan="-26.46" tilt="-14.9"/>
-      <hotspot target="_blank" id="E04-2" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" url="" title="2" pan="-22.66" tilt="-18.14"/>
-      <hotspot target="_blank" id="E04-3" skinid="ht_noDisponible" description="Superficie: 2,04 ha&#xA;Servidumbre: 0,1071 ha" url="" title="3" pan="-17.2" tilt="-23.67"/>
+      <hotspot target="_blank" id="E04-2" skinid="ht_disponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" url="" title="2" pan="-22.66" tilt="-18.14"/>
+      <hotspot target="_blank" id="E04-3" skinid="ht_disponible" description="Superficie: 2,04 ha&#xA;Servidumbre: 0,1071 ha" url="" title="3" pan="-17.2" tilt="-23.67"/>
       <hotspot target="_blank" id="E04-4" skinid="ht_noDisponible" description="Superficie: 2,06 ha&#xA;Servidumbre: 0,0829 ha" url="" title="4" pan="-17.82" tilt="-31.63"/>
       <hotspot target="_blank" id="E04-5" skinid="ht_noDisponible" description="Superficie: 3,96 ha&#xA;Servidumbre: 0,1573 ha" url="" title="5" pan="-17.5" tilt="-37.99"/>
       <hotspot target="_blank" id="E04-6" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0890 ha" url="" title="6" pan="-24.3" tilt="-56"/>
