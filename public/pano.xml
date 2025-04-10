@@ -1,420 +1,420 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<tour appversion="6.1.2" start="node20" apprev="17873">
+<tour appversion="6.1.2" apprev="17873" start="node20">
   <panorama id="node20">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="-126.871" fovmode="0">
+    <view fovmode="0" pannorth="-126.871">
       <start projection="4" tilt="-75.92" pan="-70.26" fov="89.97"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="Vista aérea 2" author="" latitude="-40.371493" nodeid="node20" tags="Etapas|main|MP -Laguna Los Corrales" datetime="08-10-2024 15:13" info="" customnodeid="" source="" copyright="" description="" longitude="-72.043330" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
-      <hotspot title="Laguna Los Corrales" distance="598.835" tilt="-29.84" url="{node18}" pan="-220.15" id="Point01" skinid="ht_nodo_roundedB" description="" target="-27.0/-10.3/70.0"/>
-      <hotspot title="1" tilt="-58.26" url="" pan="-190.52" id="1" skinid="ht_noDisponible" description="Superficie: 0,63 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="2" tilt="-62.29" url="" pan="-177.14" id="2" skinid="ht_noDisponible" description="Superficie: 0,75 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="3" tilt="-63.2" url="" pan="-155.33" id="3" skinid="ht_promocion" description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="4" tilt="-71.42" url="" pan="-179.26" id="4" skinid="ht_promocion" description="Superficie: 0,73 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="5" tilt="-70.6" url="" pan="-146.56" id="5" skinid="ht_promocion" description="Superficie: 0,65 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="6" tilt="-80.83" url="" pan="-169.19" id="6" skinid="ht_promocion" description="Superficie: 0,59 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="7" tilt="-76.28" url="" pan="-115.45" id="7" skinid="ht_promocion" description="Superficie: 0,62 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="8" tilt="-88.56" url="" pan="-109.07" id="8" skinid="ht_promocion" description="Superficie: 0,60 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="9" tilt="-74.67" url="" pan="-68.7" id="9" skinid="ht_promocion" description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="10" tilt="-75.98" url="" pan="-356.06" id="10" skinid="ht_promocion" description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="11" tilt="-65.89" url="" pan="-10.44" id="11" skinid="ht_promocion" description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="12" tilt="-53.28" url="" pan="-337.48" id="12" skinid="ht_promocion" description="Superficie: 1,83 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="13" tilt="-47.77" url="" pan="2.03" id="13" skinid="ht_promocion" description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="14" tilt="-38.43" url="" pan="-351.52" id="14" skinid="ht_promocion" description="Superficie: 0,99 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="15" tilt="-41.57" url="" pan="-9.91" id="15" skinid="ht_promocion" description="Superficie: 1,22 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="16" tilt="-34.49" url="" pan="-1.04" id="16" skinid="ht_promocion" description="Superficie: 1,24 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="17" tilt="-37.38" url="" pan="-15.92" id="17" skinid="ht_promocion" description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="18" tilt="-30.4" url="" pan="-7.65" id="18" skinid="ht_promocion" description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="19" tilt="-32.86" url="" pan="-19.35" id="19" skinid="ht_promocion" description="Superficie: 1,01 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="20" tilt="-23.36" url="" pan="-14.26" id="20" skinid="ht_promocion" description="Superficie: 2,18 Has&#xA;Servidumbre de tránsito: NO" target="_blank"/>
-      <hotspot title="Los Lagos" tilt="-0.03" url="images/Los-Lagos.jpg" pan="-107.72" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="1 h 2 min | 54,8 km&#xA;" target=""/>
-      <hotspot title="Aeropuerto Pichoy" tilt="-0.51" url="images/aeropuerto-pichoy.jpg" pan="-104.62" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="2 h 25 min | 155 km&#xA;También conocido como Aeropuerto de Valdivia, se encuentra ubicado aproximadamente a 30 kilómetros al sureste de la ciudad de Valdivia, en la Región de Los Ríos, Chile. Este aeropuerto es un punto de conexión importante para la región, ofreciendo principalmente vuelos nacionales." target=""/>
-      <hotspot title="Mirador Lago Pucura" tilt="-2.02" url="images/mirador-laguna-pucura.jpg" pan="-99.62" id="Point01" skinid="ht_tag_georeferencia_smallx" description="12 min | 7,2" target=""/>
-      <hotspot title="Futrono" tilt="-0.29" url="images/futrono.jpg" pan="-96.43" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="59 min | 53,0 km" target=""/>
-      <hotspot title="Ruta T-85" tilt="-1.91" url="" pan="-85.48" id="Point01" skinid="ht_tag_georeferencia_smallRightYellow" description="" target="_blank"/>
-      <hotspot title="Lago Ranco" tilt="-2.74" url="images/Lago-Ranco.jpg" pan="-80.96" id="Point01" skinid="ht_tag_georeferencia_mediumLeftEspecial" description="55 min | 46,6 km&#xA;Lago Ranco es una comuna situada en la provincia de Ranco, en la Región de Los Ríos, Chile. Limita al norte con la comuna de Futrono, al este con Argentina, al sur con Río Bueno y al oeste con La Unión. Es un área conocida por su belleza natural y su entorno lacustre. Puedes disfrutar de este tipo actividades: Parque, playas, miradores, termas, senderismo, cicloturusmo y más." target=""/>
-      <hotspot title="Valdivia" tilt="-2.06" url="images/valdivia.jpg" pan="-76.82" id="Point01" skinid="ht_tag_georeferencia_smallLeft" description="2 h 32 min | 149 km&#xA;Valdivia-Corral, abarca el hermoso borde costero y fluvial del estuario del río Valdivia y la Bahía de Corral. Puedes disfrutar de atractivos turísticos como: museos, parques, playas, áreas costeras y santuario naturales. " target=""/>
-      <hotspot title="Río Bueno" tilt="0.93" url="images/riobueno.jpg" pan="-60.79" id="Point01" skinid="ht_tag_georeferencia_smallLeft" description="1 h 34 min | 92,2 km&#xA;" target=""/>
-      <hotspot title="Osorno" tilt="0.65" url="images/Osorno.jpg" pan="-48.44" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="2 h 1 min | 130 km&#xA;Osorno, ubicada en la Región de Los Lagos en Chile, es una ciudad con una rica historia y una variedad de atractivos turísticos. Acá te dejamos algunos de los principales lugares y actividades que puedes disfrutar en Osorno: Plaza de Armas, Museo Histórico y Arqueológico, Parque, Fuente de San Carlos de Ancud, Cerro de la Virgen, Rió Rahue y más" target=""/>
-      <hotspot title="Aeropuerto Cañal Bajo" tilt="1.37" url="images/Aeródromo-Cañal-Bajo.jpg" pan="-39.13" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="2 h | 131 km&#xA;El Aeropuerto Cañal Bajo, también conocido como Aeropuerto de Osorno, se encuentra en la región de Los Lagos, en Chile. Es un aeropuerto pequeño que sirve principalmente vuelos nacionales.&#xA;&#xA;" target=""/>
-      <hotspot title="Termas de Puyehue" tilt="-1.74" url="images/Termas-de-Puyehue.jpg" pan="-17.94" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="2 h 20 min | 148 km&#xA;Las Termas de Puyehue, ubicadas en la Región de Los Lagos, Chile, son un atractivo turístico que combina aguas termales naturales con el entorno majestuoso del Parque Nacional Puyehue. Ofrecen piscinas de aguas termales, spas, y actividades al aire libre como senderismo y avistamiento de fauna. Este destino es ideal para quienes buscan relajación y contacto con la naturaleza, rodeado de paisajes de bosques nativos y montañas." target=""/>
-      <hotspot title="Puerto Montt" tilt="1.05" url="images/puerto-montt.jpg" pan="-13.24" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="3 h 9 min | 232 km&#xA;Es una ciudad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su belleza natural, su puerto y su importancia como punto de acceso a la Patagonia. Sus atractivos turísticos serían: Costanera, mercado de Angelmó, Isla Tenglo, Parque, lagos y volcanes. " target=""/>
-      <hotspot title="Frutillar " tilt="1.02" url="images/frutillar.jpg" pan="-7.03" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="2 h 36 min | 191 km&#xA;Es una hermosa localidad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su impresionante paisaje, que incluye vistas al Lago Llanquihue y al volcán Osorno. La ciudad tiene una rica herencia cultural, especialmente influenciada por la colonización alemana, lo que se refleja en su arquitectura y en la gastronomía local. Puedes disfrutar de sus playas y sus actividades acuáticas." target=""/>
-      <hotspot title="Lago Puyehue" tilt="-3.82" url="images/Paso-Cardenal-Samoré.jpg" pan="-302.62" id="Point01" skinid="ht_tag_georeferencia_mediumLeft" description="2 h 9 min | 128 km&#xA;Ubicado en la Región de Los Ríos en Chile, es un hermoso destino turístico que ofrece una variedad de atractivos naturales y actividades. Aquí te menciono algunos de los principales atractivos turísticos de la zona: Parques, termas, actividades al aire libre, miradores. Cascadas, fauna y flores." target=""/>
-      <hotspot title="Paso Cardenal Samoré" tilt="-1.05" url="images/Paso-Cardenal-Samoré.jpg" pan="-294.98" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="3 h 3 min | 192 km&#xA;El Paso Internacional Cardenal Samore es un importante cruce fronterizo entre Chile y Argentina, ubicado en la región de Los Lagos. Este paso conecta la ciudad chilena de Puyehue con la ciudad argentina de Neuquén. Es conocido por su hermoso paisaje montañoso y es un punto popular para turistas que desean explorar ambos países." target=""/>
-      <hotspot title="Lago Maihué" tilt="-3.97" url="images/Lago-Maihue.jpg" pan="-162.94" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="59 min | 34 km&#xA;El Lago Maihué, ubicado en la Región de Los Ríos en Chile, es un destino turístico que ofrece una variedad de atractivos naturales y actividades recreativas. Algunos de los principales atractivos turísticos de la zona incluyen: naturaleza y paisaje, actividades acuáticas, actividades acuáticas, camping y áreas recreativas, observación de fauna, ,&#xA;senderismo." target=""/>
-      <hotspot title="Volcán Mirador" tilt="-9.05" url="images/Volcán-Mirador.jpg" pan="-100.03" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="3 min | 1,7 km&#xA;Ubicado en la región de Los Lagos, es un destino turístico fascinante que ofrece impresionantes vistas panorámicas de la cordillera y los lagos circundantes. Los visitantes pueden disfrutar de actividades como el senderismo y la observación de flora y fauna nativa. Además, la zona es ideal para los amantes de la fotografía, gracias a sus paisajes naturales. La experiencia se complementa con la rica cultura local y la posibilidad de explorar tradiciones y gastronomía de la región." target=""/>
-      <hotspot title="Ruta T-709" tilt="-28.73" url="" pan="-41.15" id="Point01" skinid="ht_tag_georeferencia_smallRightYellow" description="" target="_blank"/>
-      <hotspot title="Etapa 4" tilt="-8.4" url="" pan="-24.13" id="Point02" skinid="ht_proyecto" description="" target="_blank"/>
+    <userdata description="" title="Vista aérea 2" author="" copyright="" source="" latitude="-40.371493" datetime="08-10-2024 15:13" tags="Etapas|main|MP -Laguna Los Corrales" nodeid="node20" info="" customnodeid="" comment="" longitude="-72.043330"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
+      <hotspot description="" tilt="-29.84" title="Laguna Los Corrales" target="-27.0/-10.3/70.0" pan="-220.15" id="Point01" distance="598.835" url="{node18}" skinid="ht_nodo_roundedB"/>
+      <hotspot description="Superficie: 0,63 Has&#xA;Servidumbre de tránsito: NO" tilt="-58.26" title="1" target="_blank" pan="-190.52" id="1" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 0,75 Has&#xA;Servidumbre de tránsito: NO" tilt="-62.29" title="2" target="_blank" pan="-177.14" id="2" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.24" title="3" target="_blank" pan="-157.93" id="3" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,73 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.75" title="4" target="_blank" pan="-181.93" id="4" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,65 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.49" title="5" target="_blank" pan="-144.12" id="5" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,59 Has&#xA;Servidumbre de tránsito: NO" tilt="-81.33" title="6" target="_blank" pan="-169.73" id="6" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,62 Has&#xA;Servidumbre de tránsito: NO" tilt="-76.71" title="7" target="_blank" pan="-110.04" id="7" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,60 Has&#xA;Servidumbre de tránsito: NO" tilt="-87.3" title="8" target="_blank" pan="-382.92" id="8" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.95" title="9" target="_blank" pan="-56.54" id="9" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.96" title="10" target="_blank" pan="-344.76" id="10" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.01" title="11" target="_blank" pan="-10.53" id="11" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,83 Has&#xA;Servidumbre de tránsito: NO" tilt="-49.19" title="12" target="_blank" pan="-340.08" id="12" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-45.42" title="13" target="_blank" pan="2.68" id="13" url="" skinid="ht_reservado"/>
+      <hotspot description="Superficie: 0,99 Has&#xA;Servidumbre de tránsito: NO" tilt="-38.43" title="14" target="_blank" pan="-351.52" id="14" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,22 Has&#xA;Servidumbre de tránsito: NO" tilt="-42.28" title="15" target="_blank" pan="-9.33" id="15" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 1,24 Has&#xA;Servidumbre de tránsito: NO" tilt="-34.65" title="16" target="_blank" pan="0.39" id="16" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-37.84" title="17" target="_blank" pan="-16.11" id="17" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-30.4" title="18" target="_blank" pan="-7.65" id="18" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,01 Has&#xA;Servidumbre de tránsito: NO" tilt="-32.43" title="19" target="_blank" pan="-18.56" id="19" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,18 Has&#xA;Servidumbre de tránsito: NO" tilt="-23.36" title="20" target="_blank" pan="-14.26" id="20" url="" skinid="ht_promocion"/>
+      <hotspot description="1 h 2 min | 54,8 km&#xA;" tilt="-0.03" title="Los Lagos" target="" pan="-107.72" id="Point01" url="images/Los-Lagos.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="2 h 25 min | 155 km&#xA;También conocido como Aeropuerto de Valdivia, se encuentra ubicado aproximadamente a 30 kilómetros al sureste de la ciudad de Valdivia, en la Región de Los Ríos, Chile. Este aeropuerto es un punto de conexión importante para la región, ofreciendo principalmente vuelos nacionales." tilt="-0.51" title="Aeropuerto Pichoy" target="" pan="-104.62" id="Point01" url="images/aeropuerto-pichoy.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="12 min | 7,2" tilt="-2.02" title="Mirador Lago Pucura" target="" pan="-99.62" id="Point01" url="images/mirador-laguna-pucura.jpg" skinid="ht_tag_georeferencia_smallx"/>
+      <hotspot description="59 min | 53,0 km" tilt="-0.29" title="Futrono" target="" pan="-96.43" id="Point01" url="images/futrono.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="" tilt="-1.91" title="Ruta T-85" target="_blank" pan="-85.48" id="Point01" url="" skinid="ht_tag_georeferencia_smallRightYellow"/>
+      <hotspot description="55 min | 46,6 km&#xA;Lago Ranco es una comuna situada en la provincia de Ranco, en la Región de Los Ríos, Chile. Limita al norte con la comuna de Futrono, al este con Argentina, al sur con Río Bueno y al oeste con La Unión. Es un área conocida por su belleza natural y su entorno lacustre. Puedes disfrutar de este tipo actividades: Parque, playas, miradores, termas, senderismo, cicloturusmo y más." tilt="-2.74" title="Lago Ranco" target="" pan="-80.96" id="Point01" url="images/Lago-Ranco.jpg" skinid="ht_tag_georeferencia_mediumLeftEspecial"/>
+      <hotspot description="2 h 32 min | 149 km&#xA;Valdivia-Corral, abarca el hermoso borde costero y fluvial del estuario del río Valdivia y la Bahía de Corral. Puedes disfrutar de atractivos turísticos como: museos, parques, playas, áreas costeras y santuario naturales. " tilt="-2.06" title="Valdivia" target="" pan="-76.82" id="Point01" url="images/valdivia.jpg" skinid="ht_tag_georeferencia_smallLeft"/>
+      <hotspot description="1 h 34 min | 92,2 km&#xA;" tilt="0.93" title="Río Bueno" target="" pan="-60.79" id="Point01" url="images/riobueno.jpg" skinid="ht_tag_georeferencia_smallLeft"/>
+      <hotspot description="2 h 1 min | 130 km&#xA;Osorno, ubicada en la Región de Los Lagos en Chile, es una ciudad con una rica historia y una variedad de atractivos turísticos. Acá te dejamos algunos de los principales lugares y actividades que puedes disfrutar en Osorno: Plaza de Armas, Museo Histórico y Arqueológico, Parque, Fuente de San Carlos de Ancud, Cerro de la Virgen, Rió Rahue y más" tilt="0.65" title="Osorno" target="" pan="-48.44" id="Point01" url="images/Osorno.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="2 h | 131 km&#xA;El Aeropuerto Cañal Bajo, también conocido como Aeropuerto de Osorno, se encuentra en la región de Los Lagos, en Chile. Es un aeropuerto pequeño que sirve principalmente vuelos nacionales.&#xA;&#xA;" tilt="1.37" title="Aeropuerto Cañal Bajo" target="" pan="-39.13" id="Point01" url="images/Aeródromo-Cañal-Bajo.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="2 h 20 min | 148 km&#xA;Las Termas de Puyehue, ubicadas en la Región de Los Lagos, Chile, son un atractivo turístico que combina aguas termales naturales con el entorno majestuoso del Parque Nacional Puyehue. Ofrecen piscinas de aguas termales, spas, y actividades al aire libre como senderismo y avistamiento de fauna. Este destino es ideal para quienes buscan relajación y contacto con la naturaleza, rodeado de paisajes de bosques nativos y montañas." tilt="-1.74" title="Termas de Puyehue" target="" pan="-17.94" id="Point01" url="images/Termas-de-Puyehue.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="3 h 9 min | 232 km&#xA;Es una ciudad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su belleza natural, su puerto y su importancia como punto de acceso a la Patagonia. Sus atractivos turísticos serían: Costanera, mercado de Angelmó, Isla Tenglo, Parque, lagos y volcanes. " tilt="1.05" title="Puerto Montt" target="" pan="-13.24" id="Point01" url="images/puerto-montt.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="2 h 36 min | 191 km&#xA;Es una hermosa localidad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su impresionante paisaje, que incluye vistas al Lago Llanquihue y al volcán Osorno. La ciudad tiene una rica herencia cultural, especialmente influenciada por la colonización alemana, lo que se refleja en su arquitectura y en la gastronomía local. Puedes disfrutar de sus playas y sus actividades acuáticas." tilt="1.02" title="Frutillar " target="" pan="-7.03" id="Point01" url="images/frutillar.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="2 h 9 min | 128 km&#xA;Ubicado en la Región de Los Ríos en Chile, es un hermoso destino turístico que ofrece una variedad de atractivos naturales y actividades. Aquí te menciono algunos de los principales atractivos turísticos de la zona: Parques, termas, actividades al aire libre, miradores. Cascadas, fauna y flores." tilt="-3.82" title="Lago Puyehue" target="" pan="-302.62" id="Point01" url="images/Paso-Cardenal-Samoré.jpg" skinid="ht_tag_georeferencia_mediumLeft"/>
+      <hotspot description="3 h 3 min | 192 km&#xA;El Paso Internacional Cardenal Samore es un importante cruce fronterizo entre Chile y Argentina, ubicado en la región de Los Lagos. Este paso conecta la ciudad chilena de Puyehue con la ciudad argentina de Neuquén. Es conocido por su hermoso paisaje montañoso y es un punto popular para turistas que desean explorar ambos países." tilt="-1.05" title="Paso Cardenal Samoré" target="" pan="-294.98" id="Point01" url="images/Paso-Cardenal-Samoré.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="59 min | 34 km&#xA;El Lago Maihué, ubicado en la Región de Los Ríos en Chile, es un destino turístico que ofrece una variedad de atractivos naturales y actividades recreativas. Algunos de los principales atractivos turísticos de la zona incluyen: naturaleza y paisaje, actividades acuáticas, actividades acuáticas, camping y áreas recreativas, observación de fauna, ,&#xA;senderismo." tilt="-3.97" title="Lago Maihué" target="" pan="-162.94" id="Point01" url="images/Lago-Maihue.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="3 min | 1,7 km&#xA;Ubicado en la región de Los Lagos, es un destino turístico fascinante que ofrece impresionantes vistas panorámicas de la cordillera y los lagos circundantes. Los visitantes pueden disfrutar de actividades como el senderismo y la observación de flora y fauna nativa. Además, la zona es ideal para los amantes de la fotografía, gracias a sus paisajes naturales. La experiencia se complementa con la rica cultura local y la posibilidad de explorar tradiciones y gastronomía de la región." tilt="-9.05" title="Volcán Mirador" target="" pan="-100.03" id="Point01" url="images/Volcán-Mirador.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="" tilt="-28.73" title="Ruta T-709" target="_blank" pan="-41.15" id="Point01" url="" skinid="ht_tag_georeferencia_smallRightYellow"/>
+      <hotspot description="" tilt="-8.4" title="Etapa 4" target="_blank" pan="-24.13" id="Point02" url="" skinid="ht_proyecto"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node18">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="Laguna Los Corrales" author="" latitude="-40.368960" nodeid="node18" tags="main|MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.037092" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="Laguna Los Corrales" author="" copyright="" source="" latitude="-40.368960" datetime="01-01-1970 0:00" tags="main|MP -Laguna Los Corrales" nodeid="node18" info="" customnodeid="" comment="" longitude="-72.037092"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node14">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="Aérea Retocada" author="" latitude="-40.374705" nodeid="node14" tags="MP -Laguna Los Corrales" datetime="08-10-2024 15:15" info="" customnodeid="" source="" copyright="" description="" longitude="-72.044111" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="Aérea Retocada" author="" copyright="" source="" latitude="-40.374705" datetime="08-10-2024 15:15" tags="MP -Laguna Los Corrales" nodeid="node14" info="" customnodeid="" comment="" longitude="-72.044111"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node21">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="-43.42" pan="-14.17" fov="83.65"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="Etapa 4" author="" latitude="-40.381125" nodeid="node21" tags="e5|Etapa 4" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.068548" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
-      <hotspot title="Volcán Mirador" tilt="1.01" url="images/Volcán-Mirador.jpg" pan="-359.52" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="3 min | 1,7 km&#xA;Ubicado en la región de Los Lagos, es un destino turístico fascinante que ofrece impresionantes vistas panorámicas de la cordillera y los lagos circundantes. Los visitantes pueden disfrutar de actividades como el senderismo y la observación de flora y fauna nativa. Además, la zona es ideal para los amantes de la fotografía, gracias a sus paisajes naturales. La experiencia se complementa con la rica cultura local y la posibilidad de explorar tradiciones y gastronomía de la región." target=""/>
-      <hotspot title="Los Lagos" tilt="0.72" url="images/Los-Lagos.jpg" pan="-305.79" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="1 h 2 min | 54,8 km&#xA;" target=""/>
-      <hotspot title="Aeropuerto Pichoy" tilt="0.44" url="images/aeropuerto-pichoy.jpg" pan="-299.7" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="2 h 25 min | 155 km&#xA;También conocido como Aeropuerto de Valdivia, se encuentra ubicado aproximadamente a 30 kilómetros al sureste de la ciudad de Valdivia, en la Región de Los Ríos, Chile. Este aeropuerto es un punto de conexión importante para la región, ofreciendo principalmente vuelos nacionales." target=""/>
-      <hotspot title="Lago Ranco" tilt="0.27" url="images/Lago-Ranco.jpg" pan="-278.17" id="Point01" skinid="ht_tag_georeferencia_mediumLeftEspecial" description="55 min | 46,6 km&#xA;Lago Ranco es una comuna situada en la provincia de Ranco, en la Región de Los Ríos, Chile. Limita al norte con la comuna de Futrono, al este con Argentina, al sur con Río Bueno y al oeste con La Unión. Es un área conocida por su belleza natural y su entorno lacustre. Puedes disfrutar de este tipo actividades: Parque, playas, miradores, termas, senderismo, cicloturusmo y más." target=""/>
-      <hotspot title="Valdivia" tilt="0.81" url="images/valdivia.jpg" pan="-273.84" id="Point01" skinid="ht_tag_georeferencia_smallLeft" description="2 h 32 min | 149 km&#xA;Valdivia-Corral, abarca el hermoso borde costero y fluvial del estuario del río Valdivia y la Bahía de Corral. Puedes disfrutar de atractivos turísticos como: museos, parques, playas, áreas costeras y santuario naturales. " target=""/>
-      <hotspot title="Río Bueno" tilt="1.39" url="images/riobueno.jpg" pan="-263.01" id="Point01" skinid="ht_tag_georeferencia_smallLeft" description="1 h 34 min | 92,2 km&#xA;" target=""/>
-      <hotspot title="Osorno" tilt="3.06" url="images/Osorno.jpg" pan="-245.24" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="2 h 1 min | 130 km&#xA;Osorno, ubicada en la Región de Los Lagos en Chile, es una ciudad con una rica historia y una variedad de atractivos turísticos. Acá te dejamos algunos de los principales lugares y actividades que puedes disfrutar en Osorno: Plaza de Armas, Museo Histórico y Arqueológico, Parque, Fuente de San Carlos de Ancud, Cerro de la Virgen, Rió Rahue y más" target=""/>
-      <hotspot title="Aeropuerto Cañal Bajo" tilt="3.8" url="images/Aeródromo-Cañal-Bajo.jpg" pan="-233.74" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="2 h | 131 km&#xA;El Aeropuerto Cañal Bajo, también conocido como Aeropuerto de Osorno, se encuentra en la región de Los Lagos, en Chile. Es un aeropuerto pequeño que sirve principalmente vuelos nacionales.&#xA;&#xA;" target=""/>
-      <hotspot title="Termas de Puyehue" tilt="2.85" url="images/Termas-de-Puyehue.jpg" pan="-202.35" id="Point01" skinid="ht_tag_georeferencia_smallRight" description="2 h 20 min | 148 km&#xA;Las Termas de Puyehue, ubicadas en la Región de Los Lagos, Chile, son un atractivo turístico que combina aguas termales naturales con el entorno majestuoso del Parque Nacional Puyehue. Ofrecen piscinas de aguas termales, spas, y actividades al aire libre como senderismo y avistamiento de fauna. Este destino es ideal para quienes buscan relajación y contacto con la naturaleza, rodeado de paisajes de bosques nativos y montañas." target=""/>
-      <hotspot title="Puerto Montt" tilt="4.35" url="images/puerto-montt.jpg" pan="-195.92" id="Point01" skinid="ht_tag_georeferencia_mediumRight" description="3 h 9 min | 232 km&#xA;Es una ciudad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su belleza natural, su puerto y su importancia como punto de acceso a la Patagonia. Sus atractivos turísticos serían: Costanera, mercado de Angelmó, Isla Tenglo, Parque, lagos y volcanes. " target=""/>
-      <hotspot title="Frutillar " tilt="4.22" url="images/frutillar.jpg" pan="-190.83" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="2 h 36 min | 191 km&#xA;Es una hermosa localidad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su impresionante paisaje, que incluye vistas al Lago Llanquihue y al volcán Osorno. La ciudad tiene una rica herencia cultural, especialmente influenciada por la colonización alemana, lo que se refleja en su arquitectura y en la gastronomía local. Puedes disfrutar de sus playas y sus actividades acuáticas." target=""/>
-      <hotspot title="Paso Cardenal Samoré" tilt="3.19" url="images/Paso-Cardenal-Samoré.jpg" pan="-175.24" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="3 h 3 min | 192 km&#xA;El Paso Internacional Cardenal Samore es un importante cruce fronterizo entre Chile y Argentina, ubicado en la región de Los Lagos. Este paso conecta la ciudad chilena de Puyehue con la ciudad argentina de Neuquén. Es conocido por su hermoso paisaje montañoso y es un punto popular para turistas que desean explorar ambos países." target=""/>
-      <hotspot title="Lago Puyehue" tilt="3.71" url="images/Paso-Cardenal-Samoré.jpg" pan="-167.75" id="Point01" skinid="ht_tag_georeferencia_mediumLeft" description="2 h 9 min | 128 km&#xA;Ubicado en la Región de Los Ríos en Chile, es un hermoso destino turístico que ofrece una variedad de atractivos naturales y actividades. Aquí te menciono algunos de los principales atractivos turísticos de la zona: Parques, termas, actividades al aire libre, miradores. Cascadas, fauna y flores." target=""/>
-      <hotspot title="Lago Maihué" tilt="2.06" url="images/Lago-Maihue.jpg" pan="-26.21" id="Point01" skinid="ht_tag_georeferencia_mediumLeftEspecial" description="59 min | 34 km&#xA;El Lago Maihué, ubicado en la Región de Los Ríos en Chile, es un destino turístico que ofrece una variedad de atractivos naturales y actividades recreativas. Algunos de los principales atractivos turísticos de la zona incluyen: naturaleza y paisaje, actividades acuáticas, actividades acuáticas, camping y áreas recreativas, observación de fauna,senderismo." target=""/>
-      <hotspot title="Ruta T-567" tilt="-45.35" url="" pan="-340.42" id="Point01" skinid="ht_tag_georeferencia_smallRightYellow" description="" target="_blank"/>
-      <hotspot title="Futrono" tilt="0.1" url="images/futrono.jpg" pan="-292.88" id="Point01" skinid="ht_tag_georeferencia_largeRight" description="59 min | 53,0 km" target=""/>
-      <hotspot title="Ver" tilt="-28.86" url="{node22}" pan="-162.68" id="Point01" skinid="ht_nodo_roundedB" description="" target="$fwd"/>
-      <hotspot title="13" tilt="-27.86" url="" pan="-169.46" id="E04-13" skinid="ht_disponible" description="Superficie: 2,10 ha&#xA;Servidumbre: 0,1082 ha" target="_blank"/>
-      <hotspot title="14" tilt="-34.2" url="" pan="-169.57" id="E04-14" skinid="ht_noDisponible" description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0977 ha" target="_blank"/>
-      <hotspot title="Ver" tilt="-56.38" url="{node24}" pan="-86.96" id="Point01" skinid="ht_nodo_roundedB" description="" target="$fwd"/>
-      <hotspot title="18" tilt="-70.87" url="" pan="-99.09" id="E04-18" skinid="ht_noDisponible" description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0961 ha" target="_blank"/>
-      <hotspot title="19" tilt="-57.6" url="" pan="-65.41" id="E04-19" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0733 ha" target="_blank"/>
-      <hotspot title="Ver" tilt="-16.74" url="{node23}" pan="-33.11" id="Point01" skinid="ht_nodo_roundedB" description="" target="$fwd"/>
-      <hotspot title="25" tilt="-17.54" url="" pan="-29.52" id="E04-25" skinid="ht_disponible" description="Superficie: 3,55 ha&#xA;Servidumbre: 0,0592 ha" target="_blank"/>
-      <hotspot title="Río Nilahue" tilt="-23.92" url="" pan="-243.92" id="Point01" skinid="ht_tag_georeferencia_mediumRight_Blue" description="" target="_blank"/>
-      <hotspot title="Mirador Lago Pucura" tilt="-2.82" url="images/mirador-laguna-pucura.jpg" pan="-290.99" id="Point01" skinid="ht_tag_georeferencia_smallx" description="12 min | 7,2" target=""/>
-      <hotspot title="Laguna Los Corrales" tilt="-0.12" url="images/laguna los corrales.jpg" pan="-42.04" id="Point01" skinid="ht_tag_georeferencia_largeLeftEspecial" description="7 min | 4,5 km&#xA;" target=""/>
-      <hotspot title="Ruta T-85" tilt="0.42" url="" pan="-282.88" id="Point01" skinid="ht_tag_georeferencia_smallRightYellow" description="" target="_blank"/>
-      <hotspot title="11" tilt="-19.03" url="" pan="-178.26" id="E04-11" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0664 ha" target="_blank"/>
-      <hotspot title="12" tilt="-23.82" url="" pan="-173.42" id="E04-12" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0647 ha" target="_blank"/>
-      <hotspot title="15" tilt="-38.35" url="" pan="-157.18" id="E04-15" skinid="ht_noDisponible" description="Superficie: 2,10 ha&#xA;Servidumbre: 0,0764 ha" target="_blank"/>
-      <hotspot title="16" tilt="-45.94" url="" pan="-145.72" id="E04-16" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0629 ha" target="_blank"/>
-      <hotspot title="17" tilt="-60.96" url="" pan="-134.8" id="E04-17" skinid="ht_noDisponible" description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0993 ha" target="_blank"/>
-      <hotspot title="20" tilt="-43.05" url="" pan="-59.66" id="E04-20" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0763 ha" target="_blank"/>
-      <hotspot title="21" tilt="-35.37" url="" pan="-45.98" id="E04-21" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0945 ha" target="_blank"/>
-      <hotspot title="22" tilt="-30.86" url="" pan="-34.19" id="E04-22" skinid="ht_noDisponible" description="Superficie: 3,20 ha&#xA;Servidumbre: 0,1743 ha" target="_blank"/>
-      <hotspot title="23" tilt="-24.51" url="" pan="-30.24" id="E04-23" skinid="ht_noDisponible" description="Superficie: 2,05 ha&#xA;Servidumbre: 0,0948 ha" target="_blank"/>
-      <hotspot title="24" tilt="-19.8" url="" pan="-33.45" id="E04-24" skinid="ht_reservado" description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1020 ha" target="_blank"/>
-      <hotspot title="26" tilt="-14.9" url="" pan="-26.46" id="E04-26" skinid="ht_noDisponible" description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0592 ha" target="_blank"/>
-      <hotspot title="2" tilt="-18.14" url="" pan="-22.66" id="E04-2" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" target="_blank"/>
-      <hotspot title="3" tilt="-23.67" url="" pan="-17.2" id="E04-3" skinid="ht_noDisponible" description="Superficie: 2,04 ha&#xA;Servidumbre: 0,1071 ha" target="_blank"/>
-      <hotspot title="4" tilt="-31.63" url="" pan="-17.82" id="E04-4" skinid="ht_noDisponible" description="Superficie: 2,06 ha&#xA;Servidumbre: 0,0829 ha" target="_blank"/>
-      <hotspot title="5" tilt="-37.99" url="" pan="-17.5" id="E04-5" skinid="ht_noDisponible" description="Superficie: 3,96 ha&#xA;Servidumbre: 0,1573 ha" target="_blank"/>
-      <hotspot title="6" tilt="-56" url="" pan="-24.3" id="E04-6" skinid="ht_noDisponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0890 ha" target="_blank"/>
-      <hotspot title="7" tilt="-81.08" url="" pan="-211.66" id="E04-7" skinid="ht_noDisponible" description="Superficie: 2,01 ha&#xA;Servidumbre: 0,1194 ha" target="_blank"/>
-      <hotspot title="8" tilt="-53.35" url="" pan="-189.02" id="E04-8" skinid="ht_noDisponible" description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1262 ha" target="_blank"/>
-      <hotspot title="9" tilt="-39.31" url="" pan="-183.77" id="E04-9" skinid="ht_disponible" description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1589 ha" target="_blank"/>
-      <hotspot title="10" tilt="-25.01" url="" pan="-187.99" id="E04-10" skinid="ht_noDisponible" description="Superficie: 3,65 ha&#xA;Servidumbre: 0,2272 ha" target="_blank"/>
-      <hotspot title="Etapa 5" tilt="0.54" url="" pan="-49.85" id="Point02" skinid="ht_proyecto" description="" target="_blank"/>
+    <userdata description="" title="Etapa 4" author="" copyright="" source="" latitude="-40.381125" datetime="01-01-1970 0:00" tags="e5|Etapa 4" nodeid="node21" info="" customnodeid="" comment="" longitude="-72.068548"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
+      <hotspot description="3 min | 1,7 km&#xA;Ubicado en la región de Los Lagos, es un destino turístico fascinante que ofrece impresionantes vistas panorámicas de la cordillera y los lagos circundantes. Los visitantes pueden disfrutar de actividades como el senderismo y la observación de flora y fauna nativa. Además, la zona es ideal para los amantes de la fotografía, gracias a sus paisajes naturales. La experiencia se complementa con la rica cultura local y la posibilidad de explorar tradiciones y gastronomía de la región." tilt="1.01" title="Volcán Mirador" target="" pan="-359.52" id="Point01" url="images/Volcán-Mirador.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="1 h 2 min | 54,8 km&#xA;" tilt="0.72" title="Los Lagos" target="" pan="-305.79" id="Point01" url="images/Los-Lagos.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="2 h 25 min | 155 km&#xA;También conocido como Aeropuerto de Valdivia, se encuentra ubicado aproximadamente a 30 kilómetros al sureste de la ciudad de Valdivia, en la Región de Los Ríos, Chile. Este aeropuerto es un punto de conexión importante para la región, ofreciendo principalmente vuelos nacionales." tilt="0.44" title="Aeropuerto Pichoy" target="" pan="-299.7" id="Point01" url="images/aeropuerto-pichoy.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="55 min | 46,6 km&#xA;Lago Ranco es una comuna situada en la provincia de Ranco, en la Región de Los Ríos, Chile. Limita al norte con la comuna de Futrono, al este con Argentina, al sur con Río Bueno y al oeste con La Unión. Es un área conocida por su belleza natural y su entorno lacustre. Puedes disfrutar de este tipo actividades: Parque, playas, miradores, termas, senderismo, cicloturusmo y más." tilt="0.27" title="Lago Ranco" target="" pan="-278.17" id="Point01" url="images/Lago-Ranco.jpg" skinid="ht_tag_georeferencia_mediumLeftEspecial"/>
+      <hotspot description="2 h 32 min | 149 km&#xA;Valdivia-Corral, abarca el hermoso borde costero y fluvial del estuario del río Valdivia y la Bahía de Corral. Puedes disfrutar de atractivos turísticos como: museos, parques, playas, áreas costeras y santuario naturales. " tilt="0.81" title="Valdivia" target="" pan="-273.84" id="Point01" url="images/valdivia.jpg" skinid="ht_tag_georeferencia_smallLeft"/>
+      <hotspot description="1 h 34 min | 92,2 km&#xA;" tilt="1.39" title="Río Bueno" target="" pan="-263.01" id="Point01" url="images/riobueno.jpg" skinid="ht_tag_georeferencia_smallLeft"/>
+      <hotspot description="2 h 1 min | 130 km&#xA;Osorno, ubicada en la Región de Los Lagos en Chile, es una ciudad con una rica historia y una variedad de atractivos turísticos. Acá te dejamos algunos de los principales lugares y actividades que puedes disfrutar en Osorno: Plaza de Armas, Museo Histórico y Arqueológico, Parque, Fuente de San Carlos de Ancud, Cerro de la Virgen, Rió Rahue y más" tilt="3.06" title="Osorno" target="" pan="-245.24" id="Point01" url="images/Osorno.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="2 h | 131 km&#xA;El Aeropuerto Cañal Bajo, también conocido como Aeropuerto de Osorno, se encuentra en la región de Los Lagos, en Chile. Es un aeropuerto pequeño que sirve principalmente vuelos nacionales.&#xA;&#xA;" tilt="3.8" title="Aeropuerto Cañal Bajo" target="" pan="-233.74" id="Point01" url="images/Aeródromo-Cañal-Bajo.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="2 h 20 min | 148 km&#xA;Las Termas de Puyehue, ubicadas en la Región de Los Lagos, Chile, son un atractivo turístico que combina aguas termales naturales con el entorno majestuoso del Parque Nacional Puyehue. Ofrecen piscinas de aguas termales, spas, y actividades al aire libre como senderismo y avistamiento de fauna. Este destino es ideal para quienes buscan relajación y contacto con la naturaleza, rodeado de paisajes de bosques nativos y montañas." tilt="2.85" title="Termas de Puyehue" target="" pan="-202.35" id="Point01" url="images/Termas-de-Puyehue.jpg" skinid="ht_tag_georeferencia_smallRight"/>
+      <hotspot description="3 h 9 min | 232 km&#xA;Es una ciudad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su belleza natural, su puerto y su importancia como punto de acceso a la Patagonia. Sus atractivos turísticos serían: Costanera, mercado de Angelmó, Isla Tenglo, Parque, lagos y volcanes. " tilt="4.35" title="Puerto Montt" target="" pan="-195.92" id="Point01" url="images/puerto-montt.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
+      <hotspot description="2 h 36 min | 191 km&#xA;Es una hermosa localidad ubicada en la Región de Los Lagos, en el sur de Chile. Es conocida por su impresionante paisaje, que incluye vistas al Lago Llanquihue y al volcán Osorno. La ciudad tiene una rica herencia cultural, especialmente influenciada por la colonización alemana, lo que se refleja en su arquitectura y en la gastronomía local. Puedes disfrutar de sus playas y sus actividades acuáticas." tilt="4.22" title="Frutillar " target="" pan="-190.83" id="Point01" url="images/frutillar.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="3 h 3 min | 192 km&#xA;El Paso Internacional Cardenal Samore es un importante cruce fronterizo entre Chile y Argentina, ubicado en la región de Los Lagos. Este paso conecta la ciudad chilena de Puyehue con la ciudad argentina de Neuquén. Es conocido por su hermoso paisaje montañoso y es un punto popular para turistas que desean explorar ambos países." tilt="3.19" title="Paso Cardenal Samoré" target="" pan="-175.24" id="Point01" url="images/Paso-Cardenal-Samoré.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="2 h 9 min | 128 km&#xA;Ubicado en la Región de Los Ríos en Chile, es un hermoso destino turístico que ofrece una variedad de atractivos naturales y actividades. Aquí te menciono algunos de los principales atractivos turísticos de la zona: Parques, termas, actividades al aire libre, miradores. Cascadas, fauna y flores." tilt="3.71" title="Lago Puyehue" target="" pan="-167.75" id="Point01" url="images/Paso-Cardenal-Samoré.jpg" skinid="ht_tag_georeferencia_mediumLeft"/>
+      <hotspot description="59 min | 34 km&#xA;El Lago Maihué, ubicado en la Región de Los Ríos en Chile, es un destino turístico que ofrece una variedad de atractivos naturales y actividades recreativas. Algunos de los principales atractivos turísticos de la zona incluyen: naturaleza y paisaje, actividades acuáticas, actividades acuáticas, camping y áreas recreativas, observación de fauna,senderismo." tilt="2.06" title="Lago Maihué" target="" pan="-26.21" id="Point01" url="images/Lago-Maihue.jpg" skinid="ht_tag_georeferencia_mediumLeftEspecial"/>
+      <hotspot description="" tilt="-45.35" title="Ruta T-567" target="_blank" pan="-340.42" id="Point01" url="" skinid="ht_tag_georeferencia_smallRightYellow"/>
+      <hotspot description="59 min | 53,0 km" tilt="0.1" title="Futrono" target="" pan="-292.88" id="Point01" url="images/futrono.jpg" skinid="ht_tag_georeferencia_largeRight"/>
+      <hotspot description="" tilt="-28.86" title="Ver" target="$fwd" pan="-162.68" id="Point01" url="{node22}" skinid="ht_nodo_roundedB"/>
+      <hotspot description="Superficie: 2,10 ha&#xA;Servidumbre: 0,1082 ha" tilt="-27.86" title="13" target="_blank" pan="-169.46" id="E04-13" url="" skinid="ht_disponible"/>
+      <hotspot description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0977 ha" tilt="-34.2" title="14" target="_blank" pan="-169.57" id="E04-14" url="" skinid="ht_noDisponible"/>
+      <hotspot description="" tilt="-56.38" title="Ver" target="$fwd" pan="-86.96" id="Point01" url="{node24}" skinid="ht_nodo_roundedB"/>
+      <hotspot description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0961 ha" tilt="-70.87" title="18" target="_blank" pan="-99.09" id="E04-18" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0733 ha" tilt="-57.6" title="19" target="_blank" pan="-65.41" id="E04-19" url="" skinid="ht_noDisponible"/>
+      <hotspot description="" tilt="-16.74" title="Ver" target="$fwd" pan="-33.11" id="Point01" url="{node23}" skinid="ht_nodo_roundedB"/>
+      <hotspot description="Superficie: 3,55 ha&#xA;Servidumbre: 0,0592 ha" tilt="-17.54" title="25" target="_blank" pan="-29.52" id="E04-25" url="" skinid="ht_promocion"/>
+      <hotspot description="" tilt="-23.92" title="Río Nilahue" target="_blank" pan="-243.92" id="Point01" url="" skinid="ht_tag_georeferencia_mediumRight_Blue"/>
+      <hotspot description="12 min | 7,2" tilt="-2.82" title="Mirador Lago Pucura" target="" pan="-290.99" id="Point01" url="images/mirador-laguna-pucura.jpg" skinid="ht_tag_georeferencia_smallx"/>
+      <hotspot description="7 min | 4,5 km&#xA;" tilt="-0.12" title="Laguna Los Corrales" target="" pan="-42.04" id="Point01" url="images/laguna los corrales.jpg" skinid="ht_tag_georeferencia_largeLeftEspecial"/>
+      <hotspot description="" tilt="0.42" title="Ruta T-85" target="_blank" pan="-282.88" id="Point01" url="" skinid="ht_tag_georeferencia_smallRightYellow"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0664 ha" tilt="-19.03" title="11" target="_blank" pan="-178.26" id="E04-11" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0647 ha" tilt="-23.82" title="12" target="_blank" pan="-173.42" id="E04-12" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,10 ha&#xA;Servidumbre: 0,0764 ha" tilt="-38.35" title="15" target="_blank" pan="-157.18" id="E04-15" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0629 ha" tilt="-45.94" title="16" target="_blank" pan="-145.72" id="E04-16" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0993 ha" tilt="-60.96" title="17" target="_blank" pan="-134.8" id="E04-17" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0763 ha" tilt="-43.05" title="20" target="_blank" pan="-59.66" id="E04-20" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0945 ha" tilt="-35.37" title="21" target="_blank" pan="-45.98" id="E04-21" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 3,20 ha&#xA;Servidumbre: 0,1743 ha" tilt="-30.86" title="22" target="_blank" pan="-34.19" id="E04-22" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,05 ha&#xA;Servidumbre: 0,0948 ha" tilt="-24.51" title="23" target="_blank" pan="-30.24" id="E04-23" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1020 ha" tilt="-19.8" title="24" target="_blank" pan="-33.45" id="E04-24" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0592 ha" tilt="-14.9" title="26" target="_blank" pan="-26.46" id="E04-26" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" tilt="-18.14" title="2" target="_blank" pan="-22.66" id="E04-2" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,04 ha&#xA;Servidumbre: 0,1071 ha" tilt="-23.67" title="3" target="_blank" pan="-17.2" id="E04-3" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,06 ha&#xA;Servidumbre: 0,0829 ha" tilt="-31.63" title="4" target="_blank" pan="-17.82" id="E04-4" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 3,96 ha&#xA;Servidumbre: 0,1573 ha" tilt="-37.99" title="5" target="_blank" pan="-17.5" id="E04-5" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0890 ha" tilt="-56" title="6" target="_blank" pan="-24.3" id="E04-6" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,01 ha&#xA;Servidumbre: 0,1194 ha" tilt="-81.08" title="7" target="_blank" pan="-211.66" id="E04-7" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1262 ha" tilt="-53.35" title="8" target="_blank" pan="-189.02" id="E04-8" url="" skinid="ht_noDisponible"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1589 ha" tilt="-39.31" title="9" target="_blank" pan="-183.77" id="E04-9" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 3,65 ha&#xA;Servidumbre: 0,2272 ha" tilt="-25.01" title="10" target="_blank" pan="-187.99" id="E04-10" url="" skinid="ht_noDisponible"/>
+      <hotspot description="" tilt="0.54" title="Etapa 5" target="_blank" pan="-49.85" id="Point02" url="" skinid="ht_proyecto"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node22">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="13 y 14" author="" latitude="" nodeid="node22" tags="e5|Etapa 4" datetime="08-10-2024 14:16" info="" customnodeid="" source="" copyright="" description="" longitude="" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="13 y 14" author="" copyright="" source="" latitude="" datetime="08-10-2024 14:16" tags="e5|Etapa 4" nodeid="node22" info="" customnodeid="" comment="" longitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node23">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="25" author="" latitude="" nodeid="node23" tags="e5|Etapa 4" datetime="08-10-2024 14:03" info="" customnodeid="" source="" copyright="" description="" longitude="" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="25" author="" copyright="" source="" latitude="" datetime="08-10-2024 14:03" tags="e5|Etapa 4" nodeid="node23" info="" customnodeid="" comment="" longitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node24">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="18 y 19" author="" latitude="" nodeid="node24" tags="e5|Etapa 4" datetime="08-10-2024 13:30" info="" customnodeid="" source="" copyright="" description="" longitude="" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="18 y 19" author="" copyright="" source="" latitude="" datetime="08-10-2024 13:30" tags="e5|Etapa 4" nodeid="node24" info="" customnodeid="" comment="" longitude=""/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node25">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.385457" nodeid="node25" tags="e5|MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.070182" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.385457" datetime="01-01-1970 0:00" tags="e5|MP -Laguna Los Corrales" nodeid="node25" info="" customnodeid="" comment="" longitude="-72.070182"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node26">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.376378" nodeid="node26" tags="e5|MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.061939" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.376378" datetime="01-01-1970 0:00" tags="e5|MP -Laguna Los Corrales" nodeid="node26" info="" customnodeid="" comment="" longitude="-72.061939"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node27">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.377686" nodeid="node27" tags="e5|MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.064006" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.377686" datetime="01-01-1970 0:00" tags="e5|MP -Laguna Los Corrales" nodeid="node27" info="" customnodeid="" comment="" longitude="-72.064006"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node28">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.377540" nodeid="node28" tags="MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.064231" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.377540" datetime="01-01-1970 0:00" tags="MP -Laguna Los Corrales" nodeid="node28" info="" customnodeid="" comment="" longitude="-72.064231"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node29">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.379684" nodeid="node29" tags="MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.067973" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.379684" datetime="01-01-1970 0:00" tags="MP -Laguna Los Corrales" nodeid="node29" info="" customnodeid="" comment="" longitude="-72.067973"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <panorama id="node30">
-    <input overlap="1" levelbiashidpi="1.000" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" leveltilesize="510">
-      <level width="2048" preload="0" height="2048" predecode="0"/>
-      <level width="1024" preload="0" height="1024" predecode="0"/>
-      <level width="512" preload="0" height="512" predecode="0"/>
-      <level width="256" preload="1" height="256" predecode="1"/>
+    <input levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" overlap="1" levelingpitch="0" height="2048" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048">
+      <level preload="0" height="2048" predecode="0" width="2048"/>
+      <level preload="0" height="1024" predecode="0" width="1024"/>
+      <level preload="0" height="512" predecode="0" width="512"/>
+      <level preload="1" height="256" predecode="1" width="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="0" fovmode="0">
+    <view fovmode="0" pannorth="0">
       <start projection="4" tilt="0" pan="0" fov="70"/>
       <flyin projection="9" tilt="-90" pan="0" fov="170"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
-      <max tilt="90" pan="360" scaletofit="1" fov="120" fovstereographic="270" fovfisheye="360"/>
+      <max tilt="90" fovfisheye="360" pan="360" fov="120" fovstereographic="270" scaletofit="1"/>
     </view>
-    <userdata title="default" author="" latitude="-40.380689" nodeid="node30" tags="MP -Laguna Los Corrales" datetime="01-01-1970 0:00" info="" customnodeid="" source="" copyright="" description="" longitude="-72.067662" comment=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label textalpha="1" wordwrap="1" width="180" borderradius="1" enabled="0" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff" height="20" border="1" textcolor="0x000000" background="1"/>
-      <polystyle handcursor="1" mode="2" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="0" backgroundcolor="0x99ffa5"/>
+    <userdata description="" title="default" author="" copyright="" source="" latitude="-40.380689" datetime="01-01-1970 0:00" tags="MP -Laguna Los Corrales" nodeid="node30" info="" customnodeid="" comment="" longitude="-72.067662"/>
+    <hotspots height="20" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" enabled="0" background="1" bordercolor="0x000000" height="20" wordwrap="1" borderalpha="1" textalpha="1" width="180" textcolor="0x000000" borderradius="1"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x99ffa5" bordercolor="0x0000ff" borderalpha="0" handcursor="1" mode="2"/>
     </hotspots>
     <media/>
-    <transition zoomin="0" type="crossdissolve" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" blendtime="1" enabled="1" softedge="0" zoomfov="20" zoomout="0"/>
-    <autorotate noderandom="1" returntohorizon="0.000" speed="0.020" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" delay="40.00" nodefilter=""/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" speedwheel="1" lockedkeyboardzoom="0" contextprojections="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1" contextfullscreen="1" hideabout="0" invertwheel="0" simulatemass="1" rubberband="0" lockedmouse="0" lockedwheel="0"/>
+    <transition zoomin="0" type="crossdissolve" zoomoutpause="1" enabled="1" zoomout="0" blendtime="1" zoomspeed="2" zoomfov="20" blendcolor="0x000000" softedge="0"/>
+    <autorotate noderandom="1" useanimation="0" startloaded="0" enabled="1" nodedelay="0.00" returntohorizon="0.000" nodefilter="" delay="40.00" speed="0.020"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control contextprojections="0" invertcontrol="1" contextfullscreen="1" lockedmouse="0" lockedkeyboardzoom="0" hideabout="0" lockedkeyboard="0" sensitivity="8" lockedwheel="0" invertwheel="0" simulatemass="1" rubberband="0" dblclickfullscreen="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata title="Laguna Los Corrales Etapa 5" author="" latitude="" nodeid="master" tags="" datetime="" info="" customnodeid="" source="" copyright="" description="" longitude="" comment=""/>
+    <userdata description="" title="Laguna Los Corrales Etapa 5" author="" copyright="" source="" latitude="" datetime="" tags="" nodeid="master" info="" customnodeid="" comment="" longitude=""/>
   </masternode>
 </tour>
