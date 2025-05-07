@@ -549,32 +549,28 @@
 					</div>
 					<div class="right wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
 						<div class="fields">
-							<form action="/" method="post" class="contact_form" id="contact_form">
-								<div class="returnmessage"
-									data-success="Your message has been received, We will contact you soon."></div>
-								<div class="empty_notice"><span>Campos requeridos</span></div>
-								<div class="first">
-									<ul>
-										<li>
-											<input id="name" type="text" placeholder="Nombre">
-										</li>
-										<li>
-											<input id="email" type="text" placeholder="Telefono">
-										</li>
-									</ul>
-								</div>
-								<div class="last">
-									<textarea id="message" placeholder="Mensaje"></textarea>
-								</div>
-								<div class="grax_tm_button">
-									<a id="send_message" href="#">Enviar mensaje</a>
-								</div>
-
-								<!-- If you want to change mail address to yours, please open modal.php and go to line 4 -->
-
-							</form>
+						  <form id="contact_form">
+							<div class="returnmessage" data-success="Tu mensaje ha sido enviado. Te contactaremos pronto."></div>
+							<div class="empty_notice"><span>Campos requeridos</span></div>
+							<div class="first">
+							  <ul>
+								<li>
+								  <input id="name" type="text" placeholder="Nombre" required>
+								</li>
+								<li>
+								  <input id="phone" type="text" placeholder="Correo" required>
+								</li>
+							  </ul>
+							</div>
+							<div class="last">
+							  <textarea id="message" placeholder="Mensaje" required></textarea>
+							</div>
+							<div class="grax_tm_button">
+							  <button class="grax_tm_button" type="submit" id="send_message">Enviar</button>
+							</div>
+						  </form>
 						</div>
-					</div>
+					  </div>
 				</div>
 			</div>
 		</div>

@@ -21,23 +21,23 @@
       <hotspot description="" tilt="-29.84" title="Laguna Los Corrales" target="-27.0/-10.3/70.0" pan="-220.15" id="Point01" distance="598.835" url="{node18}" skinid="ht_nodo_roundedB"/>
       <hotspot description="Superficie: 0,63 Has&#xA;Servidumbre de tránsito: NO" tilt="-58.26" title="1" target="_blank" pan="-190.52" id="1" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 0,75 Has&#xA;Servidumbre de tránsito: NO" tilt="-62.29" title="2" target="_blank" pan="-177.14" id="2" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.24" title="3" target="_blank" pan="-157.93" id="3" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,73 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.75" title="4" target="_blank" pan="-181.93" id="4" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,65 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.49" title="5" target="_blank" pan="-144.12" id="5" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,59 Has&#xA;Servidumbre de tránsito: NO" tilt="-81.33" title="6" target="_blank" pan="-169.73" id="6" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,62 Has&#xA;Servidumbre de tránsito: NO" tilt="-76.71" title="7" target="_blank" pan="-110.04" id="7" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,60 Has&#xA;Servidumbre de tránsito: NO" tilt="-87.3" title="8" target="_blank" pan="-382.92" id="8" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.95" title="9" target="_blank" pan="-56.54" id="9" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.96" title="10" target="_blank" pan="-344.76" id="10" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.01" title="11" target="_blank" pan="-10.53" id="11" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 1,83 Has&#xA;Servidumbre de tránsito: NO" tilt="-49.19" title="12" target="_blank" pan="-340.08" id="12" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.24" title="3" target="_blank" pan="-157.93" id="3" url="$15.000.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,73 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.75" title="4" target="_blank" pan="-181.93" id="4" url="$17.200.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,65 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.49" title="5" target="_blank" pan="-144.12" id="5" url="$15.500.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,59 Has&#xA;Servidumbre de tránsito: NO" tilt="-81.33" title="6" target="_blank" pan="-169.73" id="6" url="$20.800.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,62 Has&#xA;Servidumbre de tránsito: NO" tilt="-76.71" title="7" target="_blank" pan="-110.04" id="7" url="$22.000.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,60 Has&#xA;Servidumbre de tránsito: NO" tilt="-87.3" title="8" target="_blank" pan="-382.92" id="8" url="$21.100.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-71.95" title="9" target="_blank" pan="-56.54" id="9" url="$23.300.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,66 Has&#xA;Servidumbre de tránsito: NO" tilt="-70.96" title="10" target="_blank" pan="-344.76" id="10" url="$23.300.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-63.01" title="11" target="_blank" pan="-10.53" id="11" url="$33.500.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,83 Has&#xA;Servidumbre de tránsito: NO" tilt="-49.19" title="12" target="_blank" pan="-340.08" id="12" url="$46.500.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 0,95 Has&#xA;Servidumbre de tránsito: NO" tilt="-45.42" title="13" target="_blank" pan="2.68" id="13" url="" skinid="ht_reservado"/>
-      <hotspot description="Superficie: 0,99 Has&#xA;Servidumbre de tránsito: NO" tilt="-38.43" title="14" target="_blank" pan="-351.52" id="14" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 1,22 Has&#xA;Servidumbre de tránsito: NO" tilt="-42.28" title="15" target="_blank" pan="-9.33" id="15" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 1,24 Has&#xA;Servidumbre de tránsito: NO" tilt="-34.65" title="16" target="_blank" pan="0.39" id="16" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-37.84" title="17" target="_blank" pan="-16.11" id="17" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-30.4" title="18" target="_blank" pan="-7.65" id="18" url="" skinid="ht_promocion"/>
-      <hotspot description="Superficie: 1,01 Has&#xA;Servidumbre de tránsito: NO" tilt="-32.43" title="19" target="_blank" pan="-18.56" id="19" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 0,99 Has&#xA;Servidumbre de tránsito: NO" tilt="-38.43" title="14" target="_blank" pan="-351.52" id="14" url="$30.200.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,22 Has&#xA;Servidumbre de tránsito: NO" tilt="-42.28" title="15" target="_blank" pan="-9.33" id="15" url="$19.000.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,24 Has&#xA;Servidumbre de tránsito: NO" tilt="-34.65" title="16" target="_blank" pan="0.39" id="16" url="$19.500.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-37.84" title="17" target="_blank" pan="-16.11" id="17" url="$24.200.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,03 Has&#xA;Servidumbre de tránsito: NO" tilt="-30.4" title="18" target="_blank" pan="-7.65" id="18" url="$20.200.000" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 1,01 Has&#xA;Servidumbre de tránsito: NO" tilt="-32.43" title="19" target="_blank" pan="-18.56" id="19" url="$19.800.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 2,18 Has&#xA;Servidumbre de tránsito: NO" tilt="-23.36" title="20" target="_blank" pan="-14.26" id="20" url="" skinid="ht_promocion"/>
       <hotspot description="1 h 2 min | 54,8 km&#xA;" tilt="-0.03" title="Los Lagos" target="" pan="-107.72" id="Point01" url="images/Los-Lagos.jpg" skinid="ht_tag_georeferencia_smallRight"/>
       <hotspot description="2 h 25 min | 155 km&#xA;También conocido como Aeropuerto de Valdivia, se encuentra ubicado aproximadamente a 30 kilómetros al sureste de la ciudad de Valdivia, en la Región de Los Ríos, Chile. Este aeropuerto es un punto de conexión importante para la región, ofreciendo principalmente vuelos nacionales." tilt="-0.51" title="Aeropuerto Pichoy" target="" pan="-104.62" id="Point01" url="images/aeropuerto-pichoy.jpg" skinid="ht_tag_georeferencia_mediumRight"/>
@@ -150,13 +150,13 @@
       <hotspot description="" tilt="-45.35" title="Ruta T-567" target="_blank" pan="-340.42" id="Point01" url="" skinid="ht_tag_georeferencia_smallRightYellow"/>
       <hotspot description="59 min | 53,0 km" tilt="0.1" title="Futrono" target="" pan="-292.88" id="Point01" url="images/futrono.jpg" skinid="ht_tag_georeferencia_largeRight"/>
       <hotspot description="" tilt="-28.86" title="Ver" target="$fwd" pan="-162.68" id="Point01" url="{node22}" skinid="ht_nodo_roundedB"/>
-      <hotspot description="Superficie: 2,10 ha&#xA;Servidumbre: 0,1082 ha" tilt="-27.86" title="13" target="_blank" pan="-169.46" id="E04-13" url="" skinid="ht_disponible"/>
+      <hotspot description="Superficie: 2,10 ha&#xA;Servidumbre: 0,1082 ha" tilt="-27.86" title="13" target="_blank" pan="-169.46" id="E04-13" url="$30.000.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 2,12 ha&#xA;Servidumbre: 0,0977 ha" tilt="-34.2" title="14" target="_blank" pan="-169.57" id="E04-14" url="" skinid="ht_noDisponible"/>
       <hotspot description="" tilt="-56.38" title="Ver" target="$fwd" pan="-86.96" id="Point01" url="{node24}" skinid="ht_nodo_roundedB"/>
       <hotspot description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0961 ha" tilt="-70.87" title="18" target="_blank" pan="-99.09" id="E04-18" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0733 ha" tilt="-57.6" title="19" target="_blank" pan="-65.41" id="E04-19" url="" skinid="ht_noDisponible"/>
       <hotspot description="" tilt="-16.74" title="Ver" target="$fwd" pan="-33.11" id="Point01" url="{node23}" skinid="ht_nodo_roundedB"/>
-      <hotspot description="Superficie: 3,55 ha&#xA;Servidumbre: 0,0592 ha" tilt="-17.54" title="25" target="_blank" pan="-29.52" id="E04-25" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,32 ha&#xA;Servidumbre: 0,0592 ha" tilt="-17.54" title="25" target="_blank" pan="-29.52" id="E04-25" url="$28.000.000" skinid="ht_promocion"/>
       <hotspot description="" tilt="-23.92" title="Río Nilahue" target="_blank" pan="-243.92" id="Point01" url="" skinid="ht_tag_georeferencia_mediumRight_Blue"/>
       <hotspot description="12 min | 7,2" tilt="-2.82" title="Mirador Lago Pucura" target="" pan="-290.99" id="Point01" url="images/mirador-laguna-pucura.jpg" skinid="ht_tag_georeferencia_smallx"/>
       <hotspot description="7 min | 4,5 km&#xA;" tilt="-0.12" title="Laguna Los Corrales" target="" pan="-42.04" id="Point01" url="images/laguna los corrales.jpg" skinid="ht_tag_georeferencia_largeLeftEspecial"/>
@@ -172,14 +172,14 @@
       <hotspot description="Superficie: 2,05 ha&#xA;Servidumbre: 0,0948 ha" tilt="-24.51" title="23" target="_blank" pan="-30.24" id="E04-23" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1020 ha" tilt="-19.8" title="24" target="_blank" pan="-33.45" id="E04-24" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,03 ha&#xA;Servidumbre: 0,0592 ha" tilt="-14.9" title="26" target="_blank" pan="-26.46" id="E04-26" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" tilt="-18.14" title="2" target="_blank" pan="-22.66" id="E04-2" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1421 ha" tilt="-18.14" title="2" target="_blank" pan="-22.66" id="E04-2" url="$35.000.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 2,04 ha&#xA;Servidumbre: 0,1071 ha" tilt="-23.67" title="3" target="_blank" pan="-17.2" id="E04-3" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 2,06 ha&#xA;Servidumbre: 0,0829 ha" tilt="-31.63" title="4" target="_blank" pan="-17.82" id="E04-4" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,06 ha&#xA;Servidumbre: 0,0829 ha" tilt="-31.63" title="4" target="_blank" pan="-17.82" id="E04-4" url="$35.000.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 3,96 ha&#xA;Servidumbre: 0,1573 ha" tilt="-37.99" title="5" target="_blank" pan="-17.5" id="E04-5" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,0890 ha" tilt="-56" title="6" target="_blank" pan="-24.3" id="E04-6" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,01 ha&#xA;Servidumbre: 0,1194 ha" tilt="-81.08" title="7" target="_blank" pan="-211.66" id="E04-7" url="" skinid="ht_noDisponible"/>
       <hotspot description="Superficie: 2,07 ha&#xA;Servidumbre: 0,1262 ha" tilt="-53.35" title="8" target="_blank" pan="-189.02" id="E04-8" url="" skinid="ht_noDisponible"/>
-      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1589 ha" tilt="-39.31" title="9" target="_blank" pan="-183.77" id="E04-9" url="" skinid="ht_promocion"/>
+      <hotspot description="Superficie: 2,00 ha&#xA;Servidumbre: 0,1589 ha" tilt="-39.31" title="9" target="_blank" pan="-183.77" id="E04-9" url="$35.000.000" skinid="ht_promocion"/>
       <hotspot description="Superficie: 3,65 ha&#xA;Servidumbre: 0,2272 ha" tilt="-25.01" title="10" target="_blank" pan="-187.99" id="E04-10" url="" skinid="ht_noDisponible"/>
       <hotspot description="" tilt="0.54" title="Etapa 5" target="_blank" pan="-49.85" id="Point02" url="" skinid="ht_proyecto"/>
     </hotspots>

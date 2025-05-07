@@ -608,42 +608,72 @@ function grax_tm_contact_form(){
 	
 	"use strict";
 	
-	jQuery(".contact_form #send_message").on('click', function(){
+	document.getElementById('contact_form').addEventListener('submit', function(e) {
+		e.preventDefault();
 		
-		var name 		= jQuery(".contact_form #name").val();
-		var email 		= jQuery(".contact_form #email").val();
-		var message 	= jQuery(".contact_form #message").val();
-		var subject 	= jQuery(".contact_form #subject").val();
-		var success     = jQuery(".contact_form .returnmessage").data('success');
-	
-		jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
-		//checking for blank fields	
-		if(name===''||email===''||message===''){
-			
-			jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
+		// Obtener los valores del formulario
+		const name = document.getElementById('name').value;
+		const phone = document.getElementById('phone').value;
+		const message = document.getElementById('message').value;
+		
+		// Validar campos
+		if (!name || !phone || !message) {
+			alert('Por favor complete todos los campos requeridos');
+			return;
 		}
-		else{
-			// Returns successful data submission message when the entered information is stored in database.
-			jQuery.post("modal/contact.php",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
-				
-				jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
-				
-				
-				if(jQuery(".contact_form .returnmessage span.contact_error").length){
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);		
-				}else{
-					jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
-					jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
+		
+		// Mostrar carga
+		const submitBtn = document.getElementById('send_message');
+		const originalBtnText = submitBtn.textContent;
+		submitBtn.textContent = 'Enviando...';
+		submitBtn.disabled = true;
+		//descargar brochure
+		
+
+		// Enviar datos a Google Sheets
+		fetch('https://script.google.com/macros/s/AKfycbwptueR462htbUweYq75_KyEzYIwRM1WeinJzoLqL_rxMADVZMWdzb7zG1ow0O65Pm6/exec', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded',
+			},
+			body: new URLSearchParams({
+				'name': name,
+				'phone': phone,
+				'message': message,
+				'timestamp': new Date().toLocaleString()
+			})
+		})
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Error en la red');
+			}
+			return response.text();
+		})
+		.then(text => {
+			try {
+				const data = JSON.parse(text);
+				if (data.status === 'success') {
+					
+					//window.open('aqui poner link', '_blank');
+					alert('Tu mensaje ha sido enviado. Te contactaremos pronto.');
+					document.getElementById('contact_form').reset();
+				} else {
+					throw new Error(data.message || 'Error desconocido');
 				}
-				
-				if(data===""){
-					jQuery("#contact_form")[0].reset();//To reset form fields on success
-				}
-				
-			});
-		}
-		return false; 
+			} catch (e) {
+				throw new Error('Respuesta no válida del servidor');
+			}
+		})
+		.catch(error => {
+			console.error('Error:', error);
+			alert('Hubo un error al enviar el formulario. Por favor inténtalo de nuevo.');
+		})
+		.finally(() => {
+			submitBtn.textContent = originalBtnText;
+			submitBtn.disabled = false;
+		});
 	});
+	
 }
 
 // -----------------------------------------------------
