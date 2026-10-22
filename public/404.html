@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página No Encontrada | Laguna Los Corrales</title>
+    <link rel="icon" type="image/png" href="/website/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #060911;
+            color: #f1f5f9;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Ambient Glow Backgrounds */
+        .glow-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            opacity: 0.25;
+            z-index: 0;
+        }
+
+        .glow-orb-1 {
+            width: 450px;
+            height: 450px;
+            background: #d97706;
+            top: -100px;
+            right: -100px;
+        }
+
+        .glow-orb-2 {
+            width: 500px;
+            height: 500px;
+            background: #059669;
+            bottom: -150px;
+            left: -100px;
+        }
+
+        /* Card Container with Glassmorphism */
+        .card-404 {
+            position: relative;
+            z-index: 10;
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7), 0 0 40px rgba(217, 119, 6, 0.08);
+            border-radius: 28px;
+            max-width: 640px;
+            width: 100%;
+            padding: 56px 40px;
+            text-align: center;
+            animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(24px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .badge-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            border-radius: 9999px;
+            background: rgba(217, 119, 6, 0.12);
+            border: 1px solid rgba(217, 119, 6, 0.3);
+            color: #f59e0b;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        .glitch-number {
+            font-size: clamp(6.5rem, 18vw, 10.5rem);
+            font-weight: 900;
+            line-height: 0.9;
+            background: linear-gradient(135deg, #ffffff 10%, #f59e0b 55%, #10b981 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.04em;
+            margin-bottom: 12px;
+            user-select: none;
+            filter: drop-shadow(0 8px 30px rgba(217, 119, 6, 0.25));
+        }
+
+        .title {
+            font-size: clamp(1.4rem, 3.5vw, 1.85rem);
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .description {
+            font-family: 'Mulish', sans-serif;
+            font-size: 1.05rem;
+            line-height: 1.65;
+            color: #94a3b8;
+            max-width: 480px;
+            margin: 0 auto 36px auto;
+        }
+
+        /* Action Buttons Grid */
+        .actions-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 440px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 480px) {
+            .actions-grid {
+                flex-direction: row;
+            }
+        }
+
+        .btn {
+            flex: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 22px;
+            border-radius: 14px;
+            font-size: 0.92rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #d97706, #f59e0b);
+            color: #ffffff;
+            box-shadow: 0 10px 25px -5px rgba(217, 119, 6, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(217, 119, 6, 0.55);
+            background: linear-gradient(135deg, #b45309, #d97706);
+            color: #ffffff;
+        }
+
+        .btn-secondary {
+            background: rgba(30, 41, 59, 0.8);
+            color: #e2e8f0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(51, 65, 85, 0.9);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .footer-note {
+            margin-top: 36px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        .footer-note a {
+            color: #d97706;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-note a:hover {
+            color: #f59e0b;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+
+    <main class="card-404">
+        <div class="badge-tag">
+            <i class="fas fa-compass"></i> Laguna Los Corrales
+        </div>
+
+        <div class="glitch-number">404</div>
+
+        <h1 class="title">Ruta No Encontrada</h1>
+
+        <p class="description">
+            La página o recurso que buscas no está disponible, ha sido reubicada o el enlace ingresado no es correcto.
+        </p>
+
+        <div class="actions-grid">
+            <a href="/" class="btn btn-primary">
+                <i class="fas fa-home"></i> Ir al Inicio
+            </a>
+            <a href="/masterplan/" class="btn btn-secondary">
+                <i class="fas fa-vr-cardboard"></i> Master Plan 360
+            </a>
+        </div>
+
+        <div class="footer-note">
+            ¿Eres administrador? <a href="/admin">Ingresar al Panel</a>
+        </div>
+    </main>
+</body>
+</html>
